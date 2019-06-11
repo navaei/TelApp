@@ -67,20 +67,20 @@ void Connection::suspendConnection(bool idle) {
 }
 
 void Connection::onReceivedData(NativeByteBuffer *buffer) {
-    AES_ctr128_encrypt(buffer->bytes(), buffer->bytes(), buffer->limit(), &decryptKey, decryptIv, decryptCount, &decryptNum);
-    
+    //AES_ctr128_encrypt(buffer->bytes(), buffer->bytes(), buffer->limit(), &decryptKey, decryptIv, decryptCount, &decryptNum);
+
     failedConnectionCount = 0;
 
-    if (connectionType == ConnectionTypeGeneric || connectionType == ConnectionTypeTemp || connectionType == ConnectionTypeGenericMedia) {
-        receivedDataAmount += buffer->limit();
-        if (receivedDataAmount >= 512 * 1024) {
-            if (currentTimeout > 4) {
-                currentTimeout -= 2;
-                setTimeout(currentTimeout);
-            }
-            receivedDataAmount = 0;
-        }
-    }
+//    if (connectionType == ConnectionTypeGeneric || connectionType == ConnectionTypeTemp || connectionType == ConnectionTypeGenericMedia) {
+//        receivedDataAmount += buffer->limit();
+//        if (receivedDataAmount >= 512 * 1024) {
+//            if (currentTimeout > 4) {
+//                currentTimeout -= 2;
+//                setTimeout(currentTimeout);
+//            }
+//            receivedDataAmount = 0;
+//        }
+//    }
 
     NativeByteBuffer *parseLaterBuffer = nullptr;
     if (restOfTheData != nullptr) {
@@ -143,81 +143,86 @@ void Connection::onReceivedData(NativeByteBuffer *buffer) {
         }
         hasSomeDataSinceLastConnect = true;
 
-        uint32_t currentPacketLength = 0;
+        //TODO must delete
         uint32_t mark = buffer->position();
-        uint32_t len;
+        uint32_t currentPacketLength = buffer->readUint32(nullptr);
+        uint32_t sequenceFromServer = buffer->readUint32(nullptr);
 
-        if (currentProtocolType == ProtocolTypeEF) {
-            uint8_t fByte = buffer->readByte(nullptr);
+//        uint32_t currentPacketLength = 0;
+//        uint32_t mark = buffer->position();
+//        uint32_t len;
 
-            if ((fByte & (1 << 7)) != 0) {
-                buffer->position(mark);
-                if (buffer->remaining() < 4) {
-                    NativeByteBuffer *reuseLater = restOfTheData;
-                    restOfTheData = BuffersStorage::getInstance().getFreeBuffer(16384);
-                    restOfTheData->writeBytes(buffer);
-                    restOfTheData->limit(restOfTheData->position());
-                    lastPacketLength = 0;
-                    if (reuseLater != nullptr) {
-                        reuseLater->reuse();
-                    }
-                    break;
-                }
-                int32_t ackId = buffer->readBigInt32(nullptr) & (~(1 << 31));
-                ConnectionsManager::getInstance(currentDatacenter->instanceNum).onConnectionQuickAckReceived(this, ackId);
-                continue;
-            }
-
-            if (fByte != 0x7f) {
-                currentPacketLength = ((uint32_t) fByte) * 4;
-            } else {
-                buffer->position(mark);
-                if (buffer->remaining() < 4) {
-                    if (restOfTheData == nullptr || (restOfTheData != nullptr && restOfTheData->position() != 0)) {
-                        NativeByteBuffer *reuseLater = restOfTheData;
-                        restOfTheData = BuffersStorage::getInstance().getFreeBuffer(16384);
-                        restOfTheData->writeBytes(buffer);
-                        restOfTheData->limit(restOfTheData->position());
-                        lastPacketLength = 0;
-                        if (reuseLater != nullptr) {
-                            reuseLater->reuse();
-                        }
-                    } else {
-                        restOfTheData->position(restOfTheData->limit());
-                    }
-                    break;
-                }
-                currentPacketLength = ((uint32_t) buffer->readInt32(nullptr) >> 8) * 4;
-            }
-
-            len = currentPacketLength + (fByte != 0x7f ? 1 : 4);
-        } else {
-            if (buffer->remaining() < 4) {
-                if (restOfTheData == nullptr || (restOfTheData != nullptr && restOfTheData->position() != 0)) {
-                    NativeByteBuffer *reuseLater = restOfTheData;
-                    restOfTheData = BuffersStorage::getInstance().getFreeBuffer(16384);
-                    restOfTheData->writeBytes(buffer);
-                    restOfTheData->limit(restOfTheData->position());
-                    lastPacketLength = 0;
-                    if (reuseLater != nullptr) {
-                        reuseLater->reuse();
-                    }
-                } else {
-                    restOfTheData->position(restOfTheData->limit());
-                }
-                break;
-            }
-
-            uint32_t fInt = buffer->readUint32(nullptr);
-
-            if ((fInt & (0x80000000)) != 0) {
-                ConnectionsManager::getInstance(currentDatacenter->instanceNum).onConnectionQuickAckReceived(this, fInt & (~(1 << 31)));
-                continue;
-            }
-
-            currentPacketLength = fInt;
-            len = currentPacketLength + 4;
-        }
+//        if (currentProtocolType == ProtocolTypeEF) {
+//            uint8_t fByte = buffer->readByte(nullptr);
+//
+//            if ((fByte & (1 << 7)) != 0) {
+//                buffer->position(mark);
+//                if (buffer->remaining() < 4) {
+//                    NativeByteBuffer *reuseLater = restOfTheData;
+//                    restOfTheData = BuffersStorage::getInstance().getFreeBuffer(16384);
+//                    restOfTheData->writeBytes(buffer);
+//                    restOfTheData->limit(restOfTheData->position());
+//                    lastPacketLength = 0;
+//                    if (reuseLater != nullptr) {
+//                        reuseLater->reuse();
+//                    }
+//                    break;
+//                }
+//                int32_t ackId = buffer->readBigInt32(nullptr) & (~(1 << 31));
+//                ConnectionsManager::getInstance(currentDatacenter->instanceNum).onConnectionQuickAckReceived(this, ackId);
+//                continue;
+//            }
+//
+//            if (fByte != 0x7f) {
+//                currentPacketLength = ((uint32_t) fByte) * 4;
+//            } else {
+//                buffer->position(mark);
+//                if (buffer->remaining() < 4) {
+//                    if (restOfTheData == nullptr || (restOfTheData != nullptr && restOfTheData->position() != 0)) {
+//                        NativeByteBuffer *reuseLater = restOfTheData;
+//                        restOfTheData = BuffersStorage::getInstance().getFreeBuffer(16384);
+//                        restOfTheData->writeBytes(buffer);
+//                        restOfTheData->limit(restOfTheData->position());
+//                        lastPacketLength = 0;
+//                        if (reuseLater != nullptr) {
+//                            reuseLater->reuse();
+//                        }
+//                    } else {
+//                        restOfTheData->position(restOfTheData->limit());
+//                    }
+//                    break;
+//                }
+//                currentPacketLength = ((uint32_t) buffer->readInt32(nullptr) >> 8) * 4;
+//            }
+//
+//            len = currentPacketLength + (fByte != 0x7f ? 1 : 4);
+//        } else {
+//            if (buffer->remaining() < 4) {
+//                if (restOfTheData == nullptr || (restOfTheData != nullptr && restOfTheData->position() != 0)) {
+//                    NativeByteBuffer *reuseLater = restOfTheData;
+//                    restOfTheData = BuffersStorage::getInstance().getFreeBuffer(16384);
+//                    restOfTheData->writeBytes(buffer);
+//                    restOfTheData->limit(restOfTheData->position());
+//                    lastPacketLength = 0;
+//                    if (reuseLater != nullptr) {
+//                        reuseLater->reuse();
+//                    }
+//                } else {
+//                    restOfTheData->position(restOfTheData->limit());
+//                }
+//                break;
+//            }
+//
+//            uint32_t fInt = buffer->readUint32(nullptr);
+//
+//            if ((fInt & (0x80000000)) != 0) {
+//                ConnectionsManager::getInstance(currentDatacenter->instanceNum).onConnectionQuickAckReceived(this, fInt & (~(1 << 31)));
+//                continue;
+//            }
+//
+//            currentPacketLength = fInt;
+//            len = currentPacketLength + 4;
+//        }
 
         if (currentProtocolType != ProtocolTypeDD && currentPacketLength % 4 != 0 || currentPacketLength > 2 * 1024 * 1024) {
             if (LOGS_ENABLED) DEBUG_D("connection(%p, account%u, dc%u, type %d) received invalid packet length", this, currentDatacenter->instanceNum, currentDatacenter->getDatacenterId(), connectionType);
@@ -233,6 +238,8 @@ void Connection::onReceivedData(NativeByteBuffer *buffer) {
             if (LOGS_ENABLED) DEBUG_D("connection(%p, account%u, dc%u, type %d) received packet size less(%u) then message size(%u)", this, currentDatacenter->instanceNum, currentDatacenter->getDatacenterId(), connectionType, buffer->remaining(), currentPacketLength);
 
             NativeByteBuffer *reuseLater = nullptr;
+            //TODO must delete
+            uint32_t len = currentPacketLength + 8;
 
             if (restOfTheData != nullptr && restOfTheData->capacity() < len) {
                 reuseLater = restOfTheData;
@@ -426,181 +433,17 @@ void Connection::sendData(NativeByteBuffer *buff, bool reportAck, bool encrypted
         return;
     }
 
-    uint32_t bufferLen = 0;
-    uint32_t packetLength;
-
-    uint8_t useSecret = 0;
-    if (!firstPacketSent) {
-        if (!overrideProxyAddress.empty()) {
-            if (!overrideProxySecret.empty()) {
-                useSecret = 1;
-            } else if (!secret.empty()) {
-                useSecret = 2;
-            }
-        } else if (!ConnectionsManager::getInstance(currentDatacenter->instanceNum).proxyAddress.empty() && !ConnectionsManager::getInstance(currentDatacenter->instanceNum).proxySecret.empty()) {
-            useSecret = 1;
-        } else if (!secret.empty()) {
-            useSecret = 2;
-        }
-        if (useSecret != 0) {
-            std::string *currentSecret = getCurrentSecret(useSecret);
-            if (currentSecret->length() == 34 && (*currentSecret)[0] == 'd' && (*currentSecret)[1] == 'd') {
-                currentProtocolType = ProtocolTypeDD;
-            } else {
-                currentProtocolType = ProtocolTypeEF;
-            }
-        } else {
-            currentProtocolType = ProtocolTypeEF;
-        }
-    }
-
-    uint32_t additinalPacketSize = 0;
-    if (currentProtocolType == ProtocolTypeEF) {
-        packetLength = buff->limit() / 4;
-        if (packetLength < 0x7f) {
-            bufferLen++;
-        } else {
-            bufferLen += 4;
-        }
-    } else {
-        packetLength = buff->limit();
-        if (currentProtocolType == ProtocolTypeDD) {
-            RAND_bytes((uint8_t *) &additinalPacketSize, 4);
-            if (!encrypted) {
-                additinalPacketSize = additinalPacketSize % 257;
-            } else {
-                additinalPacketSize = additinalPacketSize % 16;
-            }
-            packetLength += additinalPacketSize;
-        } else {
-            RAND_bytes((uint8_t *) &additinalPacketSize, 4);
-            if (!encrypted) {
-                additinalPacketSize = additinalPacketSize % 257;
-                uint32_t additionalSize = additinalPacketSize % 4;
-                if (additionalSize != 0) {
-                    additinalPacketSize += (4 - additionalSize);
-                }
-            }
-            packetLength += additinalPacketSize;
-        }
-        bufferLen += 4;
-    }
-
-    if (!firstPacketSent) {
-        bufferLen += 64;
-    }
-
-    NativeByteBuffer *buffer = BuffersStorage::getInstance().getFreeBuffer(bufferLen);
-    NativeByteBuffer *buffer2;
-    if (additinalPacketSize > 0) {
-        buffer2 = BuffersStorage::getInstance().getFreeBuffer(additinalPacketSize);
-        RAND_bytes(buffer2->bytes(), additinalPacketSize);
-    } else {
-        buffer2 = nullptr;
-    }
-    uint8_t *bytes = buffer->bytes();
-
-    if (!firstPacketSent) {
-        buffer->position(64);
-        while (true) {
-            RAND_bytes(bytes, 64);
-            uint32_t val = (bytes[3] << 24) | (bytes[2] << 16) | (bytes[1] << 8) | (bytes[0]);
-            uint32_t val2 = (bytes[7] << 24) | (bytes[6] << 16) | (bytes[5] << 8) | (bytes[4]);
-            if (bytes[0] != 0xef && val != 0x44414548 && val != 0x54534f50 && val != 0x20544547 && val != 0x4954504f && val != 0xeeeeeeee && val != 0xdddddddd && val2 != 0x00000000) {
-                if (currentProtocolType == ProtocolTypeEF) {
-                    bytes[56] = bytes[57] = bytes[58] = bytes[59] = 0xef;
-                } else if (currentProtocolType == ProtocolTypeDD) {
-                    bytes[56] = bytes[57] = bytes[58] = bytes[59] = 0xdd;
-                } else if (currentProtocolType == ProtocolTypeEE) {
-                    bytes[56] = bytes[57] = bytes[58] = bytes[59] = 0xee;
-                }
-
-                if (useSecret != 0) {
-                    int16_t datacenterId;
-                    if (isMediaConnection && connectionType != ConnectionTypeGenericMedia) {
-                        if (ConnectionsManager::getInstance(currentDatacenter->instanceNum).testBackend) {
-                            datacenterId = -(int16_t) (10000 + currentDatacenter->getDatacenterId());
-                        } else {
-                            datacenterId = -(int16_t) currentDatacenter->getDatacenterId();
-                        }
-                    } else {
-                        if (ConnectionsManager::getInstance(currentDatacenter->instanceNum).testBackend) {
-                            datacenterId = (int16_t) (10000 + currentDatacenter->getDatacenterId());
-                        } else {
-                            datacenterId = (int16_t) currentDatacenter->getDatacenterId();
-                        }
-                    }
-                    bytes[60] = (uint8_t) (datacenterId & 0xff);
-                    bytes[61] = (uint8_t) ((datacenterId >> 8) & 0xff);
-                }
-                break;
-            }
-        }
-
-        encryptNum = decryptNum = 0;
-        memset(encryptCount, 0, 16);
-        memset(decryptCount, 0, 16);
-
-        for (int32_t a = 0; a < 48; a++) {
-            temp[a] = bytes[a + 8];
-        }
-        encryptKeyWithSecret(temp, useSecret);
-        if (AES_set_encrypt_key(temp, 256, &encryptKey) < 0) {
-            if (LOGS_ENABLED) DEBUG_E("unable to set encryptKey");
-            exit(1);
-        }
-        memcpy(encryptIv, temp + 32, 16);
-
-        for (int32_t a = 0; a < 48; a++) {
-            temp[a] = bytes[55 - a];
-        }
-        encryptKeyWithSecret(temp, useSecret);
-        if (AES_set_encrypt_key(temp, 256, &decryptKey) < 0) {
-            if (LOGS_ENABLED) DEBUG_E("unable to set decryptKey");
-            exit(1);
-        }
-        memcpy(decryptIv, temp + 32, 16);
-        
-        AES_ctr128_encrypt(bytes, temp, 64, &encryptKey, encryptIv, encryptCount, &encryptNum);
-        memcpy(bytes + 56, temp + 56, 8);
-        
+    //TODO must delete
+    uint32_t packetLength = buff->limit();
+    NativeByteBuffer *buffer = BuffersStorage::getInstance().getFreeBuffer(8);
+    if (!firstPacketSent)
         firstPacketSent = true;
-    }
-    if (currentProtocolType == ProtocolTypeEF) {
-        if (packetLength < 0x7f) {
-            if (reportAck) {
-                packetLength |= (1 << 7);
-            }
-            buffer->writeByte((uint8_t) packetLength);
-            bytes += (buffer->limit() - 1);
-            AES_ctr128_encrypt(bytes, bytes, 1, &encryptKey, encryptIv, encryptCount, &encryptNum);
-        } else {
-            packetLength = (packetLength << 8) + 0x7f;
-            if (reportAck) {
-                packetLength |= (1 << 7);
-            }
-            buffer->writeInt32(packetLength);
-            bytes += (buffer->limit() - 4);
-            AES_ctr128_encrypt(bytes, bytes, 4, &encryptKey, encryptIv, encryptCount, &encryptNum);
-        }
-    } else {
-        if (reportAck) {
-            packetLength |= 0x80000000;
-        }
-        buffer->writeInt32(packetLength);
-        bytes += (buffer->limit() - 4);
-        AES_ctr128_encrypt(bytes, bytes, 4, &encryptKey, encryptIv, encryptCount, &encryptNum);
-    }
-
+    buffer->writeInt32(packetLength + 4);//len
+    buffer->writeInt32(0);//seq
     buffer->rewind();
     writeBuffer(buffer);
     buff->rewind();
-    AES_ctr128_encrypt(buff->bytes(), buff->bytes(), buff->limit(), &encryptKey, encryptIv, encryptCount, &encryptNum);
     writeBuffer(buff);
-    if (buffer2 != nullptr) {
-        AES_ctr128_encrypt(buffer2->bytes(), buffer2->bytes(), buffer2->limit(), &encryptKey, encryptIv, encryptCount, &encryptNum);
-        writeBuffer(buffer2);
-    }
 }
 
 inline char char2int(char input) {

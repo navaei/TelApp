@@ -294,7 +294,6 @@ public class MediaController implements AudioManager.OnAudioFocusChangeListener,
             }
         }
     }
-
     public final static String MIME_TYPE = "video/avc";
     private final static int PROCESSOR_TYPE_OTHER = 0;
     private final static int PROCESSOR_TYPE_QCOM = 1;
