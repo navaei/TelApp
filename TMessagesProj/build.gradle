@@ -72,10 +72,10 @@ android {
 ////        }
 
         release {
-            storeFile file("config/release.keystore")
-            storePassword RELEASE_STORE_PASSWORD
-            keyAlias RELEASE_KEY_ALIAS
-            keyPassword RELEASE_KEY_PASSWORD
+            storeFile file("config/chatzy")
+            storePassword "chatzy@123400"
+            keyAlias "chatzy"
+            keyPassword "chatzy@123400"
         }
     }
 
@@ -111,7 +111,7 @@ android {
         release {
             debuggable false
             jniDebuggable false
-            //signingConfig signingConfigs.release
+            signingConfig signingConfigs.release
             minifyEnabled true
             shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
@@ -243,7 +243,7 @@ android {
         }
     }
 
-    defaultConfig.versionCode = 1608
+    defaultConfig.versionCode = 1609
 
     applicationVariants.all { variant ->
         variant.outputs.all { output ->
