@@ -1041,7 +1041,7 @@
     <string name="MessageLifetimeVideo">If you set a timer, the video will self-destruct after it was viewed.</string>
     <string name="ShortMessageLifetimeForever">Off</string>
     <string name="EncryptionKeyDescription">This image and text were derived from the encryption key for this secret chat with **%1$s**.\n\nIf they look the same on **%2$s\'s** device, end-to-end encryption is guaranteed.\n\nLearn more at Chatzy.ir</string>
-    <string name="EncryptionKeyLink">https://chatzy.ir/faq#secret-chats</string>
+    <string name="EncryptionKeyLink">http://chatzy.ir/faq#secret-chats</string>
     <string name="NumberUnknown">Unknown</string>
     <string name="PhoneHidden">Unknown</string>
     <string name="Info">Info</string>
@@ -1279,17 +1279,17 @@
     <string name="LanguageUnsupportedError">There is no such language.</string>
     <string name="LanguageSame">You are already using this language pack (**%1$s**). You can change your language at any time in Settings.</string>
     <string name="LanguageUnknownCustomAlert">Unfortunately, this custom language pack (**%1$s**) doesn\'t contain data for Chatzy Android.</string>
-    <string name="AskAQuestionInfo">Please note that Chatzy Support is done by volunteers. We try to respond as quickly as possible, but it may take a while.\n\nPlease take a look at the <![CDATA[<a href=\"https://chatzy.ir/faq#general-questions\">Chatzy FAQ</a>]]>: it has answers to most questions and important tips for <![CDATA[<a href=\"https://chatzy.ir/faq#troubleshooting\">troubleshooting</a>]]>.</string>
+    <string name="AskAQuestionInfo">Please note that Chatzy Support is done by volunteers. We try to respond as quickly as possible, but it may take a while.\n\nPlease take a look at the <![CDATA[<a href=\"http://chatzy.ir/faq#general-questions\">Chatzy FAQ</a>]]>: it has answers to most questions and important tips for <![CDATA[<a href=\"http://chatzy.ir/faq#troubleshooting\">troubleshooting</a>]]>.</string>
     <string name="AskButton">Ask a volunteer</string>
     <string name="TelegramFAQ">Chatzy FAQ</string>
     <string name="TelegramFaq">Chatzy FAQ</string>
     <string name="AddAccount">Add Account</string>
     <string name="SelectAccount">Select Account</string>
-    <string name="TelegramFaqUrl">https://chatzy.ir/faq</string>
+    <string name="TelegramFaqUrl">http://chatzy.ir/faq</string>
     <string name="PrivacyPolicy">Privacy Policy</string>
     <string name="TermsOfService">Terms of Service</string>
     <string name="TermsOfServiceLogin">By signing up,\nyou agree to the *Terms of Service*.</string>
-    <string name="PrivacyPolicyUrl">https://chatzy.ir/privacy</string>
+    <string name="PrivacyPolicyUrl">http://chatzy.ir/privacy</string>
     <string name="DeleteLocalization">Delete localization?</string>
     <string name="IncorrectLocalization">Incorrect localization file</string>
     <string name="NotificationsService">Keep-Alive Service</string>
@@ -1529,7 +1529,7 @@
     <string name="PassportProvidedInformation">Provided Information</string>
     <string name="PassportInfoTitle">What is Chatzy Passport?</string>
     <string name="PassportInfo2">With Chatzy Passport you can easily sign up for websites and services that require identity verification.\n\nYour information, personal data, and documents are protected by end-to-end encryption. Nobody, including Chatzy, can access them without your permission.\n\nYou can visit our *FAQ* to learn more.</string>
-    <string name="PassportInfoUrl">https://chatzy.ir/faq#passport</string>
+    <string name="PassportInfoUrl">http://chatzy.ir/faq#passport</string>
     <string name="TelegramPassportCreatePasswordInfo">Please create a password to secure your personal data with end-to-end encryption.\n\nThis password will also be required whenever you log in to Chatzy on a new device.</string>
     <string name="TelegramPassportCreatePassword">CREATE A PASSWORD</string>
     <string name="TelegramPassportDelete">Delete Chatzy Passport</string>
@@ -2152,7 +2152,7 @@
     <string name="ActionBotDocumentRentalAgreement">Tenancy Agreement</string>
     <string name="ActionBotDocumentPhone">Phone Number</string>
     <string name="ActionBotDocumentEmail">Email Address</string>
-    <string name="UnsupportedMedia">This message is not supported on your version of Chatzy. Update the app to view: https://chatzy.ir/update</string>
+    <string name="UnsupportedMedia">This message is not supported on your version of Chatzy. Update the app to view: http://chatzy.ir/update</string>
     <string name="AttachPhoto">Photo</string>
     <string name="AttachVideo">Video</string>
     <string name="AttachDestructingPhoto">Self-Destructing Photo</string>
