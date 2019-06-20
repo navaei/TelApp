@@ -1147,41 +1147,41 @@ public class LoginActivity extends BaseFragment {
             int state = tm.getSimState();
             boolean simcardAvailable = state != TelephonyManager.SIM_STATE_ABSENT && state != TelephonyManager.SIM_STATE_UNKNOWN && tm.getPhoneType() != TelephonyManager.PHONE_TYPE_NONE && !AndroidUtilities.isAirplaneModeOn();
             boolean allowCall = true;
-            if (Build.VERSION.SDK_INT >= 23 && simcardAvailable) {
-                allowCall = getParentActivity().checkSelfPermission(Manifest.permission.READ_PHONE_STATE) == PackageManager.PERMISSION_GRANTED;
-                boolean allowCancelCall = getParentActivity().checkSelfPermission(Manifest.permission.CALL_PHONE) == PackageManager.PERMISSION_GRANTED;
-                if (checkPermissions) {
-                    permissionsItems.clear();
-                    if (!allowCall) {
-                        permissionsItems.add(Manifest.permission.READ_PHONE_STATE);
-                    }
-                    if (!allowCancelCall) {
-                        permissionsItems.add(Manifest.permission.CALL_PHONE);
-                    }
-                    boolean ok = true;
-                    if (!permissionsItems.isEmpty()) {
-                        SharedPreferences preferences = MessagesController.getGlobalMainSettings();
-                        if (!allowCancelCall && allowCall) {
-                            getParentActivity().requestPermissions(permissionsItems.toArray(new String[0]), 6);
-                        } else if (preferences.getBoolean("firstlogin", true) || getParentActivity().shouldShowRequestPermissionRationale(Manifest.permission.READ_PHONE_STATE)) {
-                            preferences.edit().putBoolean("firstlogin", false).commit();
-                            AlertDialog.Builder builder = new AlertDialog.Builder(getParentActivity());
-                            builder.setTitle(LocaleController.getString("AppName", R.string.AppName));
-                            builder.setPositiveButton(LocaleController.getString("OK", R.string.OK), null);
-                            builder.setMessage(LocaleController.getString("AllowReadCall", R.string.AllowReadCall));
-                            permissionsDialog = showDialog(builder.create());
-                        } else {
-                            try {
-                                getParentActivity().requestPermissions(permissionsItems.toArray(new String[0]), 6);
-                            } catch (Exception ignore) {
-                                ok = false;
-                            }
-                        }
-                        if (ok) {
-                            return;
-                        }
-                    }
-                }
+            if (Build.VERSION.SDK_INT >= 23 && simcardAvailable) {//----do'nt check permission fro call @mn---
+//                allowCall = getParentActivity().checkSelfPermission(Manifest.permission.READ_PHONE_STATE) == PackageManager.PERMISSION_GRANTED;
+//                boolean allowCancelCall = getParentActivity().checkSelfPermission(Manifest.permission.CALL_PHONE) == PackageManager.PERMISSION_GRANTED;
+//                if (checkPermissions) {
+//                    permissionsItems.clear();
+//                    if (!allowCall) {
+//                        permissionsItems.add(Manifest.permission.READ_PHONE_STATE);
+//                    }
+//                    if (!allowCancelCall) {
+//                        permissionsItems.add(Manifest.permission.CALL_PHONE);
+//                    }
+//                    boolean ok = true;
+//                    if (!permissionsItems.isEmpty()) {
+//                        SharedPreferences preferences = MessagesController.getGlobalMainSettings();
+//                        if (!allowCancelCall && allowCall) {
+//                            getParentActivity().requestPermissions(permissionsItems.toArray(new String[0]), 6);
+//                        } else if (preferences.getBoolean("firstlogin", true) || getParentActivity().shouldShowRequestPermissionRationale(Manifest.permission.READ_PHONE_STATE)) {
+//                            preferences.edit().putBoolean("firstlogin", false).commit();
+//                            AlertDialog.Builder builder = new AlertDialog.Builder(getParentActivity());
+//                            builder.setTitle(LocaleController.getString("AppName", R.string.AppName));
+//                            builder.setPositiveButton(LocaleController.getString("OK", R.string.OK), null);
+//                            builder.setMessage(LocaleController.getString("AllowReadCall", R.string.AllowReadCall));
+//                            permissionsDialog = showDialog(builder.create());
+//                        } else {
+//                            try {
+//                                getParentActivity().requestPermissions(permissionsItems.toArray(new String[0]), 6);
+//                            } catch (Exception ignore) {
+//                                ok = false;
+//                            }
+//                        }
+//                        if (ok) {
+//                            return;
+//                        }
+//                    }
+//                }
             }
 
             if (countryState == 1) {
@@ -1311,27 +1311,27 @@ public class LoginActivity extends BaseFragment {
                 if (tm.getSimState() != TelephonyManager.SIM_STATE_ABSENT && tm.getPhoneType() != TelephonyManager.PHONE_TYPE_NONE) {
                     boolean allowCall = true;
                     if (Build.VERSION.SDK_INT >= 23) {
-                        allowCall = getParentActivity().checkSelfPermission(Manifest.permission.READ_PHONE_STATE) == PackageManager.PERMISSION_GRANTED;
-                        if (checkShowPermissions && !allowCall) {
-                            permissionsShowItems.clear();
-                            if (!allowCall) {
-                                permissionsShowItems.add(Manifest.permission.READ_PHONE_STATE);
-                            }
-                            if (!permissionsShowItems.isEmpty()) {
-                                SharedPreferences preferences = MessagesController.getGlobalMainSettings();
-                                if (preferences.getBoolean("firstloginshow", true) || getParentActivity().shouldShowRequestPermissionRationale(Manifest.permission.READ_PHONE_STATE)) {
-                                    preferences.edit().putBoolean("firstloginshow", false).commit();
-                                    AlertDialog.Builder builder = new AlertDialog.Builder(getParentActivity());
-                                    builder.setTitle(LocaleController.getString("AppName", R.string.AppName));
-                                    builder.setPositiveButton(LocaleController.getString("OK", R.string.OK), null);
-                                    builder.setMessage(LocaleController.getString("AllowFillNumber", R.string.AllowFillNumber));
-                                    permissionsShowDialog = showDialog(builder.create());
-                                } else {
-                                    getParentActivity().requestPermissions(permissionsShowItems.toArray(new String[0]), 7);
-                                }
-                            }
-                            return;
-                        }
+//                        allowCall = getParentActivity().checkSelfPermission(Manifest.permission.READ_PHONE_STATE) == PackageManager.PERMISSION_GRANTED;
+//                        if (checkShowPermissions && !allowCall) {
+//                            permissionsShowItems.clear();
+//                            if (!allowCall) {
+//                                permissionsShowItems.add(Manifest.permission.READ_PHONE_STATE);
+//                            }
+//                            if (!permissionsShowItems.isEmpty()) {
+//                                SharedPreferences preferences = MessagesController.getGlobalMainSettings();
+//                                if (preferences.getBoolean("firstloginshow", true) || getParentActivity().shouldShowRequestPermissionRationale(Manifest.permission.READ_PHONE_STATE)) {
+//                                    preferences.edit().putBoolean("firstloginshow", false).commit();
+//                                    AlertDialog.Builder builder = new AlertDialog.Builder(getParentActivity());
+//                                    builder.setTitle(LocaleController.getString("AppName", R.string.AppName));
+//                                    builder.setPositiveButton(LocaleController.getString("OK", R.string.OK), null);
+//                                    builder.setMessage(LocaleController.getString("AllowFillNumber", R.string.AllowFillNumber));
+//                                    permissionsShowDialog = showDialog(builder.create());
+//                                } else {
+//                                    getParentActivity().requestPermissions(permissionsShowItems.toArray(new String[0]), 7);
+//                                }
+//                            }
+//                            return;
+//                        }
                     }
                     if (!newAccount && allowCall) {
                         String number = PhoneFormat.stripExceptNumbers(tm.getLine1Number());

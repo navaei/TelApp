@@ -6254,29 +6254,29 @@ public class PassportActivity extends BaseFragment implements NotificationCenter
         boolean simcardAvailable = tm.getSimState() != TelephonyManager.SIM_STATE_ABSENT && tm.getPhoneType() != TelephonyManager.PHONE_TYPE_NONE;
         boolean allowCall = true;
         if (getParentActivity() != null && Build.VERSION.SDK_INT >= 23 && simcardAvailable) {
-            allowCall = getParentActivity().checkSelfPermission(Manifest.permission.READ_PHONE_STATE) == PackageManager.PERMISSION_GRANTED;
-            if (checkPermissions) {
-                permissionsItems.clear();
-                if (!allowCall) {
-                    permissionsItems.add(Manifest.permission.READ_PHONE_STATE);
-                }
-                if (!permissionsItems.isEmpty()) {
-                    if (getParentActivity().shouldShowRequestPermissionRationale(Manifest.permission.READ_PHONE_STATE)) {
-                        AlertDialog.Builder builder = new AlertDialog.Builder(getParentActivity());
-                        builder.setTitle(LocaleController.getString("AppName", R.string.AppName));
-                        builder.setPositiveButton(LocaleController.getString("OK", R.string.OK), null);
-                        builder.setMessage(LocaleController.getString("AllowReadCall", R.string.AllowReadCall));
-                        permissionsDialog = showDialog(builder.create());
-                    } else {
-                        getParentActivity().requestPermissions(permissionsItems.toArray(new String[0]), 6);
-                    }
-                    pendingPhone = phone;
-                    pendingErrorRunnable = errorRunnable;
-                    pendingFinishRunnable = finishRunnable;
-                    pendingDelegate = delegate;
-                    return;
-                }
-            }
+//            allowCall = getParentActivity().checkSelfPermission(Manifest.permission.READ_PHONE_STATE) == PackageManager.PERMISSION_GRANTED;
+//            if (checkPermissions) {
+//                permissionsItems.clear();
+//                if (!allowCall) {
+//                    permissionsItems.add(Manifest.permission.READ_PHONE_STATE);
+//                }
+//                if (!permissionsItems.isEmpty()) {
+//                    if (getParentActivity().shouldShowRequestPermissionRationale(Manifest.permission.READ_PHONE_STATE)) {
+//                        AlertDialog.Builder builder = new AlertDialog.Builder(getParentActivity());
+//                        builder.setTitle(LocaleController.getString("AppName", R.string.AppName));
+//                        builder.setPositiveButton(LocaleController.getString("OK", R.string.OK), null);
+//                        builder.setMessage(LocaleController.getString("AllowReadCall", R.string.AllowReadCall));
+//                        permissionsDialog = showDialog(builder.create());
+//                    } else {
+//                        getParentActivity().requestPermissions(permissionsItems.toArray(new String[0]), 6);
+//                    }
+//                    pendingPhone = phone;
+//                    pendingErrorRunnable = errorRunnable;
+//                    pendingFinishRunnable = finishRunnable;
+//                    pendingDelegate = delegate;
+//                    return;
+//                }
+//            }
         }
         final TLRPC.TL_account_sendVerifyPhoneCode req = new TLRPC.TL_account_sendVerifyPhoneCode();
         req.phone_number = phone;
