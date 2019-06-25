@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="AppName">تيليجرام</string>
+    <string name="AppName">جتزی</string>
     <string name="AppNameBeta">Telegram Beta</string>
     <string name="LanguageName">العربية</string>
     <string name="English">الإنجليزية</string>
@@ -15,7 +15,7 @@
     <string name="AccountAlreadyLoggedIn">تم تسجيل الدخول إلى هذا الحساب من هذا التطبيق.</string>
     <string name="AccountSwitch">تبديل</string>
     <string name="SyncContacts">مزامنة جهات الاتصال</string>
-    <string name="SyncContactsDeleteInfo">سيؤدي هذا إلى حذف جهات اتصالك من خوادم تيليجرام، إذا كان خيار «مزامنة جهات الاتصال» مفعَّلا فستتم إعادة مزامنتها تلقائيًا.</string>
+    <string name="SyncContactsDeleteInfo">سيؤدي هذا إلى حذف جهات اتصالك من خوادم جتزی، إذا كان خيار «مزامنة جهات الاتصال» مفعَّلا فستتم إعادة مزامنتها تلقائيًا.</string>
     <string name="SyncContactsOn">ستتم إضافة جهات اتصال هذا الجهاز إلى هذا الحساب.</string>
     <string name="SyncContactsOff">لن يتم إضافة جهات اتصال هذا الجهاز إلى هذا الحساب.</string>
     <string name="SyncContactsInfoOn">ستتم إضافة جهات اتصال جهازك هذا إلى حسابك.</string>
@@ -24,12 +24,12 @@
     <!--code enter view-->
     <string name="YourCode">التحقق من الرقم</string>
     <string name="SentSmsCode">تم إرسال رسالة SMS قصيرة تحتوي على رمز التفعيل لرقمك **%1$s**.</string>
-    <string name="SentAppCode">أرسلنا الرمز إلى تطبيق **تيليجرام** على جهازك الآخر.</string>
-    <string name="SentAppCodeTitle">قم بتفقُّد رسائل تيليجرام</string>
+    <string name="SentAppCode">أرسلنا الرمز إلى تطبيق **جتزی** على جهازك الآخر.</string>
+    <string name="SentAppCodeTitle">قم بتفقُّد رسائل جتزی</string>
     <string name="SentSmsCodeTitle">أدخل الرمز</string>
-    <string name="SentCallCode">يتم الاتصال على رقمك **%1$s**.\n\nلا حاجة للرد، سيقوم تيليجرام بعملية التفعيل تلقائيًا.</string>
+    <string name="SentCallCode">يتم الاتصال على رقمك **%1$s**.\n\nلا حاجة للرد، سيقوم جتزی بعملية التفعيل تلقائيًا.</string>
     <string name="SentCallOnly">يتم الاتصال برقمك **%1$s** لإملاء الرمز عليك صوتيًا.</string>
-    <string name="CallText">سيتصل بك تيليجرام خلال %2$02d:%1$d</string>
+    <string name="CallText">سيتصل بك جتزی خلال %2$02d:%1$d</string>
     <string name="SmsText">سنقوم بإرسال رسالة SMS قصيرة خلال %1$d:%2$02d</string>
     <string name="Calling">يتم الاتصال بك...</string>
     <string name="SendingSms">يتم إرسال رسالة SMS قصيرة...</string>
@@ -46,7 +46,7 @@
     <string name="ResetAccountButton">إعادة تعيين</string>
     <string name="CancelLinkExpired">رابط غير صحيح أو منتهي الصلاحية.</string>
     <string name="CancelLinkSuccess">تم إلغاء عملية حذف حسابك %1$s. يمكنك الآن إغلاق هذه النافذة.</string>
-    <string name="OtherLoginCode">رمز الدخول هو **%1$s**. قم بإدخاله في تطبيق تيليجرام الذي تحاول تسجيل الدخول منه.\n\nلا تعطِ هذا الرمز لأي شخص كان.</string>
+    <string name="OtherLoginCode">رمز الدخول هو **%1$s**. قم بإدخاله في تطبيق جتزی الذي تحاول تسجيل الدخول منه.\n\nلا تعطِ هذا الرمز لأي شخص كان.</string>
     <!--signup view-->
     <string name="YourName">اسمك</string>
     <string name="RegisterText2">يرجى إدخال اسمك الكامل واختيار صورة لملفك الشخصي.</string>
@@ -102,7 +102,7 @@
     <string name="PaymentFailed">المعذرة، تم رفض عملية الدفع.</string>
     <string name="PaymentConnectionFailed">تعذر الوصور إلى خادم الدفع. تحقق رجاءً من اتصالك بالإنترنت وحاول مرة أخرى.</string>
     <string name="PaymentWarning">تحذير</string>
-    <string name="PaymentWarningText">لا يملك تيليجرام ولا %1$s صلاحياتِ الوصولِ إلى معلومات بطاقتك الإئتمانية. تفاصيل البطاقات الإئتمانية تتم معالجتها مباشرة عن طريق نظام الدفع %2$s.\n\nالدفعات المالية تذهب بشكل مباشر إلى مطور %1$s. لا يوفر تيليجرام أي ضمانات حول عملية الشراء، لذلك استمر على مسئوليتك. في حال وجود مشاكل يمكنك التواصل مع مطور %1$s أو مع المَصرف الخاص بك.</string>
+    <string name="PaymentWarningText">لا يملك جتزی ولا %1$s صلاحياتِ الوصولِ إلى معلومات بطاقتك الإئتمانية. تفاصيل البطاقات الإئتمانية تتم معالجتها مباشرة عن طريق نظام الدفع %2$s.\n\nالدفعات المالية تذهب بشكل مباشر إلى مطور %1$s. لا يوفر جتزی أي ضمانات حول عملية الشراء، لذلك استمر على مسئوليتك. في حال وجود مشاكل يمكنك التواصل مع مطور %1$s أو مع المَصرف الخاص بك.</string>
     <string name="PaymentPassword">كلمة المرور والبريد الإلكتروني</string>
     <string name="PaymentPasswordTitle">كلمة المرور</string>
     <string name="PaymentPasswordEnter">أدخل كلمة مرور</string>
@@ -121,7 +121,7 @@
     <string name="NewGroup">مجموعة جديدة</string>
     <string name="Yesterday">يوم أمس</string>
     <string name="NoResult">ما من نتائج</string>
-    <string name="NoChats">أهلًا في تيليجرام</string>
+    <string name="NoChats">أهلًا في جتزی</string>
     <string name="RecentlyViewed">المستعرضة مؤخرًا</string>
     <string name="RecentlyViewedHide">إخفاء</string>
     <string name="NoChatsHelp">ابدأ المراسلة عبر الضغط على زر القلم في الزاوية السفلية للشاشة.</string>
@@ -171,7 +171,7 @@
     <string name="DisappearingPhoto">صورة سرية</string>
     <string name="DisappearingVideo">مقطع مرئي سري</string>
     <string name="DisappearingGif">صورة متحركة سرية</string>
-    <string name="CompatibilityChat">يستخدم %1$s إصدارًا قديمًا من تيليجرام، لذلك ستظهر الصور السرية في الوضع التوافقي.\n\nعندما يقوم %2$s بتحديث تيليجرام فإن الصور التي بها عداد تدمير خلال دقيقة أو أقل ستعمل بطريقة «الاستمرار بالضغط للمشاهدة»، وسيتم إخبارك عندما يلتقط المستقبل صورة للشاشة.</string>
+    <string name="CompatibilityChat">يستخدم %1$s إصدارًا قديمًا من جتزی، لذلك ستظهر الصور السرية في الوضع التوافقي.\n\nعندما يقوم %2$s بتحديث جتزی فإن الصور التي بها عداد تدمير خلال دقيقة أو أقل ستعمل بطريقة «الاستمرار بالضغط للمشاهدة»، وسيتم إخبارك عندما يلتقط المستقبل صورة للشاشة.</string>
     <string name="SearchMessages">الرسائل</string>
     <string name="Search">بحث</string>
     <string name="MuteNotifications">كتم الإشعارات</string>
@@ -203,10 +203,10 @@
     <string name="Italic">مائل</string>
     <string name="Mono">رمز</string>
     <string name="Regular">عادي</string>
-    <string name="ContactsPermissionAlert">يحتاج **تيليجرام** إلى الوصول لجهات اتصالك لكي تتمكن من التواصل مع أصدقائك عبر جميع أجهزتك، ستتم مزامنة جهات اتصالك باستمرار مع خوادم تيليجرام السحابية شديدة التشفير.</string>
+    <string name="ContactsPermissionAlert">يحتاج **جتزی** إلى الوصول لجهات اتصالك لكي تتمكن من التواصل مع أصدقائك عبر جميع أجهزتك، ستتم مزامنة جهات اتصالك باستمرار مع خوادم جتزی السحابية شديدة التشفير.</string>
     <string name="ContactsPermissionAlertNotNow">ليس الآن</string>
     <string name="ContactsPermissionAlertContinue">الاستمرار</string>
-    <string name="YourContacts">جهات اتصالك في تيليجرام</string>
+    <string name="YourContacts">جهات اتصالك في جتزی</string>
     <string name="ArchiveHintHeader1">هذا هو أرشيفك</string>
     <string name="ArchiveHintText1">سيتم إلغاء أرشفة المحادثات غير المكتومة عند وصول رسائل جديدة إليها.</string>
     <string name="ArchiveHintHeader2">المحادثات المكتومة</string>
@@ -336,7 +336,7 @@
     <string name="ChannelRemoveUserAdmin">إزالة المشرف</string>
     <string name="ChannelEditPermissions">تعديل الصلاحيات</string>
     <string name="ChannelMembersInfo">يمكن لمشرفي القناة فقط مشاهدة هذه القائمة.</string>
-    <string name="ChannelLinkInfo">يمكن لمستخدمي تيليجرام الانضمام إلى قناتك عبر هذا الرابط.</string>
+    <string name="ChannelLinkInfo">يمكن لمستخدمي جتزی الانضمام إلى قناتك عبر هذا الرابط.</string>
     <string name="ChannelAdminsInfo">يمكنك إضافة مشرفين لمساعدتك في إدارة القناة، اضغط مطوَّلا على أيٍّ منهم لحذفه.</string>
     <string name="ChannelJoinTo">هل ترغب في الانضمام لقناة \'%1$s\'؟</string>
     <string name="ChannelCantOpenPrivate">المعذرة، لا يمكن الوصول إلى هذه المحادثة.</string>
@@ -660,7 +660,7 @@
     <string name="SendingGame">يلعب لعبة...</string>
     <string name="SendingVideoStatus">يرسل مقطعًا مرئيًا...</string>
     <string name="SendingFile">يرسل ملفًا...</string>
-    <string name="GotAQuestion">هل لديك سؤالٌ ما\nحول تيليجرام؟</string>
+    <string name="GotAQuestion">هل لديك سؤالٌ ما\nحول جتزی؟</string>
     <string name="ChatGallery">المعرض</string>
     <string name="ChatLocation">" موقع"</string>
     <string name="ChatVideo">مقطع مرئي</string>
@@ -710,7 +710,7 @@
     <string name="OpenUrlOption1">Log in to %1$s as **%2$s**</string>
     <string name="OpenUrlOption2">Allow **%1$s** to send me messages</string>
     <string name="CancelSending">إلغاء الإرسال</string>
-    <string name="BotPermissionGameAlert">هل ترغب في السماح لـ %1$s بإرسال اسمك وهويتك على تيليجرام للصفحات التي تفتحها عبر هذا البوت؟\n\nهويتك ليست رقمَ هاتفك.</string>
+    <string name="BotPermissionGameAlert">هل ترغب في السماح لـ %1$s بإرسال اسمك وهويتك على جتزی للصفحات التي تفتحها عبر هذا البوت؟\n\nهويتك ليست رقمَ هاتفك.</string>
     <string name="ReportSpam">تبليغ عن إزعاج</string>
     <string name="ReportSpamAndLeave">تبليغ عن إزعاج ومغادرة</string>
     <string name="AddContactChat">إضافة جهة اتصال</string>
@@ -814,7 +814,7 @@
     <string name="URL">الرابط</string>
     <string name="MapPreviewProvider">مزود معاينة الخرائط</string>
     <string name="ChooseMapPreviewProvider">اختيار مزود معاينة الخرائط</string>
-    <string name="MapPreviewProviderTelegram">تيليجرام</string>
+    <string name="MapPreviewProviderTelegram">جتزی</string>
     <string name="MapPreviewProviderGoogle">جوجل</string>
     <string name="MapPreviewProviderYandex">ياندكس</string>
     <string name="MapPreviewProviderNobody">بلا معاينات</string>
@@ -877,8 +877,8 @@
     <string name="NotificationGroupKickMember">%1$s أزال %3$s من المجموعة %2$s</string>
     <string name="NotificationGroupKickYou">أزالك %1$s من مجموعة %2$s</string>
     <string name="NotificationGroupLeftMember">غادر %1$s مجموعة %2$s</string>
-    <string name="NotificationContactJoined">انضم %1$s لتيليجرام!</string>
-    <string name="NotificationUnrecognizedDevice">%1$s؛\nلقد تم تسجيل الدخول لحسابك هذا من جهاز جديد في: %2$s\n\nالجهاز: %3$s\nالموقع: %4$s\n\nإذا لم تكن أنت من قام بتسجيل الدخول فيمكنك الذهاب للإعدادات - الخصوصية والأمان - الجلسات النشطة - ومن ثَم إنهاء الجلسات المريبة.\n\nإذا كنت تعتقد أن شخصًا ما قام بتسجيل الدخول دون إذنك فيمكنك تفعيل التحقق بخطوتين عبر قسم الخصوصية واﻷمان في الإعدادات.\n\nشكرًا..\nفريق تيليجرام</string>
+    <string name="NotificationContactJoined">انضم %1$s لجتزی!</string>
+    <string name="NotificationUnrecognizedDevice">%1$s؛\nلقد تم تسجيل الدخول لحسابك هذا من جهاز جديد في: %2$s\n\nالجهاز: %3$s\nالموقع: %4$s\n\nإذا لم تكن أنت من قام بتسجيل الدخول فيمكنك الذهاب للإعدادات - الخصوصية والأمان - الجلسات النشطة - ومن ثَم إنهاء الجلسات المريبة.\n\nإذا كنت تعتقد أن شخصًا ما قام بتسجيل الدخول دون إذنك فيمكنك تفعيل التحقق بخطوتين عبر قسم الخصوصية واﻷمان في الإعدادات.\n\nشكرًا..\nفريق جتزی</string>
     <string name="NotificationContactNewPhoto">حدّثَ %1$s صورته الشخصية</string>
     <string name="NotificationInvitedToGroupByLink">%1$s انضم للمجموعة %2$s عبر رابط دعوة</string>
     <string name="NotificationGroupFew">أرسل %1$s %3$s لمجموعة %2$s</string>
@@ -925,13 +925,13 @@
     <string name="NotificationActionPinnedGeoLiveChannel">ثبت %1$s موقعًا حيًا</string>
     <string name="NotificationActionPinnedGifChannel">ثبت %1$s صورةً متحركة</string>
     <string name="NotificationActionPinnedMusicChannel">ثبت %1$s ملفًا صوتيًا</string>
-    <string name="SecretChatName">تيليجرام</string>
+    <string name="SecretChatName">جتزی</string>
     <!--contacts view-->
     <string name="SelectContact">اختر جهة اتصال</string>
     <string name="SelectContacts">Select Contacts</string>
     <string name="ContactShare">مشاركة جهة الاتصال</string>
     <string name="NoContacts">لا توجد جهات اتصال بعد</string>
-    <string name="InviteText2">مرحبا، أنا أستخدم تيليجرام للمحادثة، انضم إلي! قم بتنزيله من هنا: %1$s</string>
+    <string name="InviteText2">مرحبا، أنا أستخدم جتزی للمحادثة، انضم إلي! قم بتنزيله من هنا: %1$s</string>
     <string name="TodayAt">في</string>
     <string name="YesterdayAt">يوم أمس عند</string>
     <string name="TodayAtFormatted">الساعة %1$s</string>
@@ -949,11 +949,11 @@
     <string name="WithinAMonth">آخر ظهور خلال شهر</string>
     <string name="ALongTimeAgo">آخر ظهور كان منذ زمن طويل</string>
     <string name="NewMessageTitle">رسالة جديدة</string>
-    <string name="InviteFriendsHelp">اختر جهات اتصال لدعوتها إلى تيليجرام</string>
-    <string name="InviteToTelegram">دعوة إلى تيليجرام</string>
-    <string name="ShareTelegram">شارك تيليجرام...</string>
+    <string name="InviteFriendsHelp">اختر جهات اتصال لدعوتها إلى جتزی</string>
+    <string name="InviteToTelegram">دعوة إلى جتزی</string>
+    <string name="ShareTelegram">شارك جتزی...</string>
     <string name="UpdateContactsTitle">هل ترغب في تحديث جهات الاتصال؟</string>
-    <string name="UpdateContactsMessage">اكتشف تيليجرام العديد من جهات الاتصال غير المزامَنة، هل ترغب في مزامنتها الآن؟ اختر «نعم» إذا كنت تستخدم جهازك الخاص وشريحتك وحساب جوجل الخاص بك.</string>
+    <string name="UpdateContactsMessage">اكتشف جتزی العديد من جهات الاتصال غير المزامَنة، هل ترغب في مزامنتها الآن؟ اختر «نعم» إذا كنت تستخدم جهازك الخاص وشريحتك وحساب جوجل الخاص بك.</string>
     <string name="SortedByName">مرتبة حسب الاسم</string>
     <string name="SortedByLastSeen">مرتبة حسب تاريخ آخر ظهور</string>
     <!--group create view-->
@@ -980,7 +980,7 @@
     <string name="RevokeLinkAlertChannel">هل ترغب حقًا في تعطيل الرابط **%1$s**؟\n\nستصبح القناة «**%2$s**» خاصة.</string>
     <string name="CopyLink">نسخ الرابط</string>
     <string name="ShareLink">مشاركة الرابط</string>
-    <string name="LinkInfo">يمكن لمستخدمي تيليجرام الانضمام إلى مجموعتك عبر هذا الرابط.</string>
+    <string name="LinkInfo">يمكن لمستخدمي جتزی الانضمام إلى مجموعتك عبر هذا الرابط.</string>
     <string name="SearchForPeople">Search for people...</string>
     <string name="SearchForPeopleAndGroups">Search for users and groups...</string>
     <!--group info view-->
@@ -1008,7 +1008,7 @@
     <string name="ShareContact">مشاركة</string>
     <string name="AddContact">إضافة</string>
     <string name="AddContactTitle">إضافة جهة اتصال</string>
-    <string name="ContactNotRegistered">لم يقم %1$s بالتسجيل في تيليجرام بعد. هل ترغب في دعوتهم؟</string>
+    <string name="ContactNotRegistered">لم يقم %1$s بالتسجيل في جتزی بعد. هل ترغب في دعوتهم؟</string>
     <string name="Invite">دعوة</string>
     <string name="BlockContact">حظر</string>
     <string name="BlockUser">Block user</string>
@@ -1058,7 +1058,7 @@
     <string name="UsernameInvalidShort">يجب ألا يقل اسم المستخدم عن 5 حروف.</string>
     <string name="UsernameInvalidLong">لا يمكن أن يتخطى الاسم 32 حرفًا كحد أقصى.</string>
     <string name="UsernameInvalidStartNumber">عذرًا، لا يمكن لاسم المستخدم بأن يبدأ برقم.</string>
-    <string name="UsernameHelp">يمكنك اختيار اسم مستخدم لحسابك في **تيليجرام**، إذا قمت بذلك سيتمكن المستخدمون الآخرون من العثور عليك والتواصل معك عبر هذا الاسم دون معرفة رقمك.\n\nيمكنك استخدام **الحروف والأرقام الإنجليزية** وكذلك الشَّرطة السفلية. الطول الأدنى هو **خمسُ خانات**.</string>
+    <string name="UsernameHelp">يمكنك اختيار اسم مستخدم لحسابك في **جتزی**، إذا قمت بذلك سيتمكن المستخدمون الآخرون من العثور عليك والتواصل معك عبر هذا الاسم دون معرفة رقمك.\n\nيمكنك استخدام **الحروف والأرقام الإنجليزية** وكذلك الشَّرطة السفلية. الطول الأدنى هو **خمسُ خانات**.</string>
     <string name="UsernameHelpLink">يقوم هذا الرابط بفتح محادثة معك:\n%1$s</string>
     <string name="UsernameChecking">يتم التحقق من اسم المستخدم...</string>
     <string name="UsernameAvailable">%1$s متاح.</string>
@@ -1094,7 +1094,7 @@
     <string name="NoEmojiFound">لم يتم العثور على رموز</string>
     <string name="NoMasks">لا توجد أقنعة بعد</string>
     <string name="EmojiSuggestions">اقتراحات الرموز التعبيرية</string>
-    <string name="EmojiSuggestionsInfo">يسمح لك **تيليجرام** بالعثور على الرموز التعبيرية عبر آلاف الكلمات، لكن من المؤكد أنه لايزال هناك نقصٌ ما، في حال كنت ترغب في اقتراح كلمة مفتاحية جديدة لرمز تعبيري ما، يمكنك مساعدتنا عبر زيارة:</string>
+    <string name="EmojiSuggestionsInfo">يسمح لك **جتزی** بالعثور على الرموز التعبيرية عبر آلاف الكلمات، لكن من المؤكد أنه لايزال هناك نقصٌ ما، في حال كنت ترغب في اقتراح كلمة مفتاحية جديدة لرمز تعبيري ما، يمكنك مساعدتنا عبر زيارة:</string>
     <string name="EmojiSuggestionsUrl">https://translations.chatzy.ir/%1$s/emoji</string>
     <string name="Masks">الأقنعة</string>
     <string name="MasksInfo">يمكنك إضافة أقنعة للصور التي ترسلها، لعمل ذلك قم بفتح محرر الصور قبل إرسال الصورة.</string>
@@ -1103,7 +1103,7 @@
     <string name="SuggestStickersAll">جميع الحزم</string>
     <string name="SuggestStickersInstalled">حزمي</string>
     <string name="SuggestStickersNone">إيقاف</string>
-    <string name="FeaturedStickersInfo">هذه الملصقات شائعة حاليًا على تيليجرام، يمكنك إضافة ملصقات مخصصة عبر البوت @stickers.</string>
+    <string name="FeaturedStickersInfo">هذه الملصقات شائعة حاليًا على جتزی، يمكنك إضافة ملصقات مخصصة عبر البوت @stickers.</string>
     <string name="ArchivedStickers">الملصقات المؤرشفة</string>
     <string name="ArchivedMasks">الأقنعة المؤرشفة</string>
     <string name="ArchivedStickersEmpty">ما من ملصقات مؤرشفة</string>
@@ -1156,7 +1156,7 @@
     <string name="ShowAllThemes">Show all Themes</string>
     <string name="CreateNewThemeMenu">إنشاء نمط جديد</string>
     <string name="CreateNewThemeHelp">اضغط على أيقونة الألوان لاستعراض قائمة الخيارات في كل شاشة - ثم قم بتعديلها.</string>
-    <string name="CreateNewThemeAlert">يمكنك إنشاء النمط الخاص بك عبر تغيير الألوان داخل التطبيق.\n\nيمكنك العودة إلى نمط تيليجرام الافتراضي في أي وقت من هنا.</string>
+    <string name="CreateNewThemeAlert">يمكنك إنشاء النمط الخاص بك عبر تغيير الألوان داخل التطبيق.\n\nيمكنك العودة إلى نمط جتزی الافتراضي في أي وقت من هنا.</string>
     <!--settings view-->
     <string name="ResetNotificationsText">تم تعيين كل الإشعارات إلى الوضع الافتراضي</string>
     <string name="ResetNotificationsAlert">هل ترغب حقًا في إعادة تعيين جميع إعدادات الإشعارات إلى الوضع الافتراضي؟</string>
@@ -1185,7 +1185,7 @@
     <string name="NotificationsAndSounds">الإشعارات والأصوات</string>
     <string name="CustomNotifications">الإشعارات المخصصة</string>
     <string name="ProfilePopupNotification">الإشعارات المنبثقة</string>
-    <string name="ProfilePopupNotificationInfo">ستظهر الرسائل الجديدة من هذا المستخدم على الشاشة حتى لو كنت خارج تطبيق تيليجرام.</string>
+    <string name="ProfilePopupNotificationInfo">ستظهر الرسائل الجديدة من هذا المستخدم على الشاشة حتى لو كنت خارج تطبيق جتزی.</string>
     <string name="NotificationsLed">LED</string>
     <string name="NotificationsLedColor">اللون</string>
     <string name="ColorBlue">أزرق</string>
@@ -1267,7 +1267,7 @@
     <string name="MessagesSettings">الرسائل</string>
     <string name="SendByEnter">إرسال بمفتاح الإدخال</string>
     <string name="Events">الأحداث</string>
-    <string name="ContactJoined">انضمام جهة اتصال لتيليجرام</string>
+    <string name="ContactJoined">انضمام جهة اتصال لجتزی</string>
     <string name="PinnedMessages">الرسائل المثبتة</string>
     <string name="Language">اللغة</string>
     <string name="LanguageCustom">مخصص</string>
@@ -1278,8 +1278,8 @@
     <string name="LanguageUnofficial">لغات غير رسمية</string>
     <string name="LanguageUnsupportedError">تعذر العثور على هذه اللغة.</string>
     <string name="LanguageSame">أنت تستخدم حزمة اللغة (**%1$s**) بالفعل، يمكنك تغيير لغتك في أي وقت عبر الإعدادات.</string>
-    <string name="LanguageUnknownCustomAlert">للأسف، لا تحتوي حزمة اللغة المخصصةُ هذه (**%1$s **) على بيانات لتيليجرام للأندرويد.</string>
-    <string name="AskAQuestionInfo">نرجو الأخذ بالعلم أن الدعم الفني في تيليجرام يقوم به مجموعة من المتطوعين. نحاول الرد سريعًا قدر الإمكان، لكن ذلك قد يستغرق بعض الوقت.\n\nيرجى الإطلاع على<![CDATA[<a href=\"http://chatzy.ir/faq/ar#a\"> الأسئلة الشائعة عن تيليجرام</a>]]> فهي تحوي إجابات لمعظم الأسئلة  <![CDATA[<a href=\"http://chatzy.ir/faq/ar#j\">وحلولًا للعديد من المشاكل.</a>]]></string>
+    <string name="LanguageUnknownCustomAlert">للأسف، لا تحتوي حزمة اللغة المخصصةُ هذه (**%1$s **) على بيانات لجتزی للأندرويد.</string>
+    <string name="AskAQuestionInfo">نرجو الأخذ بالعلم أن الدعم الفني في جتزی يقوم به مجموعة من المتطوعين. نحاول الرد سريعًا قدر الإمكان، لكن ذلك قد يستغرق بعض الوقت.\n\nيرجى الإطلاع على<![CDATA[<a href=\"http://chatzy.ir/faq/ar#a\"> الأسئلة الشائعة عن جتزی</a>]]> فهي تحوي إجابات لمعظم الأسئلة  <![CDATA[<a href=\"http://chatzy.ir/faq/ar#j\">وحلولًا للعديد من المشاكل.</a>]]></string>
     <string name="AskButton">اسأل متطوعًا</string>
     <string name="TelegramFAQ">الأسئلة الشائعة</string>
     <string name="TelegramFaq">الأسئلة الشائعة</string>
@@ -1295,7 +1295,7 @@
     <string name="NotificationsService">التشغيل المستمر في الخلفية</string>
     <string name="NotificationsServiceInfo">إعادة تشغيل التطبيق عند إيقافه. قم بالتفعيل لضمان ظهور الإشعارات.</string>
     <string name="NotificationsServiceConnection">الاتصال في الخلفية</string>
-    <string name="NotificationsServiceConnectionInfo">البقاء على اتصال طفيف مع تيليجرام في الخلفية لضمان ظهور الإشعارات.</string>
+    <string name="NotificationsServiceConnectionInfo">البقاء على اتصال طفيف مع جتزی في الخلفية لضمان ظهور الإشعارات.</string>
     <string name="SortBy">ترتيب حسب</string>
     <string name="ImportContacts">استيراد جهات الاتصال</string>
     <string name="SortFirstName">الاسم الأول</string>
@@ -1377,12 +1377,12 @@
     <string name="NotificationsPriorityUrgent">مهمة جدًا</string>
     <string name="RepeatNotificationsNever">مطلقًا</string>
     <string name="RepeatNotifications">إعادة الإشعارات</string>
-    <string name="PhoneNumberHelp">يمكنك تغيير رقم تيليجرام الخاص بك هنا، سيتم نقل حسابك وجميع بياناتك التي في سحابة تيليجرام بما فيها رسائلك، الوسائط، جهات الاتصال وغيرها للرقم الجديد.\n\n**هام:** ستحصل جميع جهات اتصالك على **رقمك الجديد**، في حال وجود رقمك القديم عندها وعدم قيامك بحظرها سابقًا في تيليجرام.</string>
-    <string name="PhoneNumberAlert">ستحصل جميع جهات اتصالك على رقمك الجديد، في حال وجود رقمك القديم عندها وعدم قيامك بحظرها سابقًا في تيليجرام.</string>
+    <string name="PhoneNumberHelp">يمكنك تغيير رقم جتزی الخاص بك هنا، سيتم نقل حسابك وجميع بياناتك التي في سحابة جتزی بما فيها رسائلك، الوسائط، جهات الاتصال وغيرها للرقم الجديد.\n\n**هام:** ستحصل جميع جهات اتصالك على **رقمك الجديد**، في حال وجود رقمك القديم عندها وعدم قيامك بحظرها سابقًا في جتزی.</string>
+    <string name="PhoneNumberAlert">ستحصل جميع جهات اتصالك على رقمك الجديد، في حال وجود رقمك القديم عندها وعدم قيامك بحظرها سابقًا في جتزی.</string>
     <string name="PhoneNumberChange">تغيير الرقم</string>
     <string name="ChangePhoneNewNumber">الرقم الجديد</string>
     <string name="ChangePhoneHelp">سيتم إرسال رسالة SMS قصيرة تحوي رمز التأكيد إلى رقمك الجديد.</string>
-    <string name="ChangePhoneNumberOccupied">الرقم %1$s مرتبط بالفعل بحساب آخَر على تيليجرام. يرجى حذف ذلك الحساب قبل محاولة تغيير رقمك.</string>
+    <string name="ChangePhoneNumberOccupied">الرقم %1$s مرتبط بالفعل بحساب آخَر على جتزی. يرجى حذف ذلك الحساب قبل محاولة تغيير رقمك.</string>
     <string name="NotificationsOther">غير ذلك</string>
     <string name="VibrationDisabled">تعطيل</string>
     <string name="PopupEnabled">مفعَّلة</string>
@@ -1403,7 +1403,7 @@
     <string name="SmartNotificationsAlert">تكرار صوت التنبيه</string>
     <string name="SmartNotificationsDetail">%1$s خلال %2$s</string>
     <string name="SecretWebPage">معاينة الروابط</string>
-    <string name="SecretWebPageInfo">يتم توليد معاينات الروابط على خوادم تيليجرام. لا نقوم بتخزين المعلومات حول الروابط التي ترسلها.</string>
+    <string name="SecretWebPageInfo">يتم توليد معاينات الروابط على خوادم جتزی. لا نقوم بتخزين المعلومات حول الروابط التي ترسلها.</string>
     <string name="SecretChat">المحادثات السرية</string>
     <string name="ChromeCustomTabs">المتصفح الداخلي</string>
     <string name="ChromeCustomTabsInfo">فتح الروابط الخارجية داخل التطبيق</string>
@@ -1412,7 +1412,7 @@
     <string name="Emoji">الرموز التعبيرية</string>
     <string name="EmojiBigSize">رسمُ رمز تعبيري واحد كبير</string>
     <string name="EmojiUseDefault">استخدم الرموز التعبيرية الافتراضية</string>
-    <string name="TelegramVersion">تيليجرام للأندرويد %1$s</string>
+    <string name="TelegramVersion">جتزی للأندرويد %1$s</string>
     <string name="DebugMenu">قائمة المعالجة</string>
     <string name="DebugSendLogs">إرسال السجلات</string>
     <string name="DebugClearLogs">مسح السجلات</string>
@@ -1446,15 +1446,15 @@
     <string name="UseProxyTelegram">بروكسي MTProto</string>
     <string name="UseProxyTelegramError">لم يتم إعداد البروكسي الذي تستخدمه بشكل صحيح وسيتم تعطيله. يرجى العثور على واحد آخر.</string>
     <string name="UseProxySponsor">راعي البروكسي</string>
-    <string name="UseProxySponsorInfo">يقوم البروكسي الخاص بك بعرض هذه القناة. لإزالتها من قائمة محادثاتك، قم بتعطيل البروكسي من إعدادات تيليجرام.</string>
+    <string name="UseProxySponsorInfo">يقوم البروكسي الخاص بك بعرض هذه القناة. لإزالتها من قائمة محادثاتك، قم بتعطيل البروكسي من إعدادات جتزی.</string>
     <string name="UseProxyInfo">إعدادات بروكسي SOCKS5</string>
     <string name="UseProxyTelegramInfo">إعدادات بروكسي MTProto.</string>
-    <string name="UseProxyTelegramInfo2">قد يعرض هذا البروكسي قناة إعلانية في قائمة محادثاتك.\nلن يكشف هذا عن أي من بيانات تيليجرام الخاصة بك.</string>
+    <string name="UseProxyTelegramInfo2">قد يعرض هذا البروكسي قناة إعلانية في قائمة محادثاتك.\nلن يكشف هذا عن أي من بيانات جتزی الخاصة بك.</string>
     <string name="UseProxyForCalls">استخدام البروكسي للمكالمات</string>
     <string name="UseProxyForCallsInfo">قد تقلل خوادم البروكسي من جودة مكالماتك.</string>
     <string name="ConnectingToProxyEnable">تفعيل</string>
     <string name="LowDiskSpaceTitle">ملحوظة</string>
-    <string name="LowDiskSpaceMessage">مساحة جهازك ممتلئة تقريبًا، لتحرير مساحة إضافية يمكنك جعل تيليجرام يقوم بالتخزين المؤقت للوسائط الحديثة فقط.</string>
+    <string name="LowDiskSpaceMessage">مساحة جهازك ممتلئة تقريبًا، لتحرير مساحة إضافية يمكنك جعل جتزی يقوم بالتخزين المؤقت للوسائط الحديثة فقط.</string>
     <string name="LowDiskSpaceTitle2">احذف الوسائط بعد</string>
     <string name="LowDiskSpaceNeverRemove">عدم الإزالة</string>
     <string name="AutodownloadContacts">جهات الاتصال</string>
@@ -1486,7 +1486,7 @@
     <string name="TapToChange">انقر للتغيير</string>
     <string name="AlternativeOptions">خيارات بديلة</string>
     <string name="AddAnotherAccount">إضافة حساب آخر</string>
-    <string name="AddAnotherAccountInfo">إضافة حساباتك الأخرى على تيليجرام والتبديل بينها بسهولة.</string>
+    <string name="AddAnotherAccountInfo">إضافة حساباتك الأخرى على جتزی والتبديل بينها بسهولة.</string>
     <string name="SetPasscode">تعيين رمز مرور</string>
     <string name="SetPasscodeInfo">تأمين التطبيق برمز مرور لحمايته من المتطفلين.</string>
     <string name="ClearCache">مسح الذاكرة المؤقتة</string>
@@ -1506,7 +1506,7 @@
     <!--cache view-->
     <string name="LocalDatabase">قاعدة البيانات على الجهاز</string>
     <string name="LocalDatabaseClear">هل ترغب في مسح الرسائل النصية من الذاكرة المؤقتة؟</string>
-    <string name="LocalDatabaseInfo">مسح قاعدة البيانات على الجهاز سيحذف الرسائل التي تم تنزيلها على جهازك ويقوم بضغط قاعدة البيانات لتوفير مساحة على جهازك. تيليجرام يحتاج لبعض البيانات ليعمل، لذلك حجم قاعدة البيانات لن يصل إلى صفر.\n\nهذه العملية ربما تأخذ عدة دقائق لتتم.</string>
+    <string name="LocalDatabaseInfo">مسح قاعدة البيانات على الجهاز سيحذف الرسائل التي تم تنزيلها على جهازك ويقوم بضغط قاعدة البيانات لتوفير مساحة على جهازك. جتزی يحتاج لبعض البيانات ليعمل، لذلك حجم قاعدة البيانات لن يصل إلى صفر.\n\nهذه العملية ربما تأخذ عدة دقائق لتتم.</string>
     <string name="ClearMediaCache">مسح الذاكرة المؤقتة</string>
     <string name="CacheClear">مسح</string>
     <string name="CalculatingSize">يتم الحساب...</string>
@@ -1519,21 +1519,21 @@
     <string name="LocalCache">الملفات الأخرى</string>
     <string name="CacheEmpty">إفراغ</string>
     <string name="KeepMedia">الإحتفاظ بالوسائط</string>
-    <string name="KeepMediaInfo">سيتم حذف جميع الصور، المقاطع المرئية، وجميع الملفات المحفوظة في خوادمنا والتي **لم تقم باستخدامها** خلال هذه المدة لتوفير المساحة على هذا الجهاز.\n\nمع ذلك ستبقى جميع الملفات في خوادم تيليجرام، ويمكنك إعادة تنزيلها مرة أخرى متى ما احتجتها.</string>
+    <string name="KeepMediaInfo">سيتم حذف جميع الصور، المقاطع المرئية، وجميع الملفات المحفوظة في خوادمنا والتي **لم تقم باستخدامها** خلال هذه المدة لتوفير المساحة على هذا الجهاز.\n\nمع ذلك ستبقى جميع الملفات في خوادم جتزی، ويمكنك إعادة تنزيلها مرة أخرى متى ما احتجتها.</string>
     <string name="KeepMediaForever">للأبد</string>
     <string name="AudioAutodownload">الرسائل الصوتية</string>
     <string name="VideoMessagesAutodownload">الرسائل المرئية</string>
     <!--passport view-->
-    <string name="TelegramPassport">جواز تيليجرام</string>
+    <string name="TelegramPassport">جواز جتزی</string>
     <string name="PassportRequestedInformation">المعلومات المطلوبة</string>
     <string name="PassportProvidedInformation">المعلومات المضافة</string>
-    <string name="PassportInfoTitle">ماهو جواز تيليجرام؟</string>
-    <string name="PassportInfo2">مع جواز تيليجرام يمْكنك التسجيل في المواقع والخدمات التي تتطلب توثيق الهوية الشخصية بسهولة.\n\nمعلوماتك، بياناتك الشخصية ووثائقك محمية ومشفرة من البداية للنهاية، لا أحد بما فيهم تيليجرام ذاتُه يمكنه الوصول إليها دون إذنك. \n\nلمزيد من التفاصيل يمكنك زيارة *الأسئلة الشائعة*.</string>
+    <string name="PassportInfoTitle">ماهو جواز جتزی؟</string>
+    <string name="PassportInfo2">مع جواز جتزی يمْكنك التسجيل في المواقع والخدمات التي تتطلب توثيق الهوية الشخصية بسهولة.\n\nمعلوماتك، بياناتك الشخصية ووثائقك محمية ومشفرة من البداية للنهاية، لا أحد بما فيهم جتزی ذاتُه يمكنه الوصول إليها دون إذنك. \n\nلمزيد من التفاصيل يمكنك زيارة *الأسئلة الشائعة*.</string>
     <string name="PassportInfoUrl">http://chatzy.ir/faq/ar#i7</string>
     <string name="TelegramPassportCreatePasswordInfo">"يرجى إنشاء كلمة مرور لحماية بياناتك الشخصية باستخدام التشفير من البداية للنهاية.\n\nستُطلب كلمة المرور هذه في كل مرة تقوم فيها بتسجيل الدخول لجهازٍ جديد. "</string>
     <string name="TelegramPassportCreatePassword">إنشاء كلمة مرور</string>
-    <string name="TelegramPassportDelete">حذف جواز تيليجرام</string>
-    <string name="TelegramPassportDeleteAlert">هل ترغب حقًا في حذف جواز تيليجرام الخاص بك؟</string>
+    <string name="TelegramPassportDelete">حذف جواز جتزی</string>
+    <string name="TelegramPassportDeleteAlert">هل ترغب حقًا في حذف جواز جتزی الخاص بك؟</string>
     <string name="PassportUseLatinOnly">يرجى استخدام الأحرف اللاتينية فقط</string>
     <string name="PassportAddPassportInfo">قم برفع نسخ ترجمة موثّقة عن جواز سفرك.</string>
     <string name="PassportAddInternalPassportInfo">قم برفع نسخ ترجمة إنجليزية موثّقة عن جوازك الداخلي.</string>
@@ -1569,8 +1569,8 @@
     <string name="PassportDeletePhoneAlert">حذف رقم الهاتف؟</string>
     <string name="PassportPhoneInfo">قم بإدخال رقم هاتفك</string>
     <string name="PassportPhoneUseSame">استخدام %1$s</string>
-    <string name="PassportPhoneUseSameInfo">استخدام نفس الرقم المُستخدم في تيليجرام.</string>
-    <string name="PassportPhoneUseSameEmailInfo">استخدام البريد المُستخدم في تيليجرام.</string>
+    <string name="PassportPhoneUseSameInfo">استخدام نفس الرقم المُستخدم في جتزی.</string>
+    <string name="PassportPhoneUseSameEmailInfo">استخدام البريد المُستخدم في جتزی.</string>
     <string name="PassportPhoneUseOther">أو أدخل رقم هاتف جديد</string>
     <string name="PassportPhoneUploadInfo">تنويه: سيصلك رمز التأكيد عبر رقم الهاتف المختارِ أعلاه.</string>
     <string name="PassportEmail">البريد</string>
@@ -1581,7 +1581,7 @@
     <string name="PassportEmailVerifyInfo">قم بإدخال رمز التأكيد الذي أرسلناه إلى %1$s.</string>
     <string name="PassportSelfRequest">يرجى إدخال كلمة مرورك للوصول إلى بياناتك الشخصية.</string>
     <string name="PassportRequest">يطلب **%1$s** الوصول لبياناتك الشخصية لتسجيلك في خدماتهم.</string>
-    <string name="PassportRequestPasswordInfo">يرجى إدخال كلمة مرورك في تيليجرام لفك تشفير بياناتك</string>
+    <string name="PassportRequestPasswordInfo">يرجى إدخال كلمة مرورك في جتزی لفك تشفير بياناتك</string>
     <string name="PassportPolicy">أنت توافق على سياسة خصوصية %1$s وتسمح لـ@%2$s بمراسلتك.</string>
     <string name="PassportNoPolicy">أنت ترسل وثائقك إلى %1$s مباشرةً وتسمح لـ@%2$s بمراسلتك.</string>
     <string name="PassportAuthorize">السماح</string>
@@ -1713,7 +1713,7 @@
     <string name="SessionsTitle">الجلسات النشطة</string>
     <string name="CurrentSession">الجلسة الحالية</string>
     <string name="NoOtherSessions">ما من جلسات أخرى نشطة حاليًا</string>
-    <string name="NoOtherSessionsInfo">يمكنك تسجيل الدخول لحسابك في تيليجرام عبر جوال، جهاز لوحي، أو جهاز حاسوب آخر باستخدام رقم الهاتف ذاته. سيقوم تيليجرام بمزامنة كافة بياناتك بشكل فوري.</string>
+    <string name="NoOtherSessionsInfo">يمكنك تسجيل الدخول لحسابك في جتزی عبر جوال، جهاز لوحي، أو جهاز حاسوب آخر باستخدام رقم الهاتف ذاته. سيقوم جتزی بمزامنة كافة بياناتك بشكل فوري.</string>
     <string name="OtherSessions">الجلسات النشطة</string>
     <string name="SessionsInfo">تحكم بجلساتك على الأجهزة الأخرى.</string>
     <string name="TerminateSessionInfo">لإنهاء جلسة ما قم بالضغط عليها.</string>
@@ -1723,21 +1723,21 @@
     <string name="TerminateAllSessions">إنهاء جميع الجلسات الأخرى</string>
     <string name="UnofficialApp">تطبيق غير رسمي</string>
     <string name="NoOtherWebSessions">ما من دخولٍ مسجَّل نشط حاليًا</string>
-    <string name="NoOtherWebSessionsInfo">يمكنك تسجيل الدخول عبر تيليجرام إلى المواقع التي تدعم ذلك.</string>
+    <string name="NoOtherWebSessionsInfo">يمكنك تسجيل الدخول عبر جتزی إلى المواقع التي تدعم ذلك.</string>
     <string name="OtherWebSessions">المواقع المتصلة</string>
-    <string name="WebSessionsTitle">تم تسجيل الدخول إليها عبر تيليجرام</string>
-    <string name="TerminateWebSessionInfo">اضغط لفك الارتباط من حسابك في تيليجرام.</string>
+    <string name="WebSessionsTitle">تم تسجيل الدخول إليها عبر جتزی</string>
+    <string name="TerminateWebSessionInfo">اضغط لفك الارتباط من حسابك في جتزی.</string>
     <string name="TerminateWebSessionQuestion">فك الارتباط مع %1$s؟</string>
     <string name="TerminateWebSessionStop">حظر %1$s</string>
     <string name="TerminateAllWebSessions">فك الارتباط مع كافة المواقع</string>
-    <string name="AreYouSureWebSessions">هل ترغب حقًا في فك الارتباط مع كل المواقع التي سجلت دخولك إليها عبر تيليجرام؟</string>
-    <string name="ClearOtherWebSessionsHelp">يمكنك تسجيل الدخول عبر تيليجرام إلى المواقع التي تدعم ذلك.</string>
+    <string name="AreYouSureWebSessions">هل ترغب حقًا في فك الارتباط مع كل المواقع التي سجلت دخولك إليها عبر جتزی؟</string>
+    <string name="ClearOtherWebSessionsHelp">يمكنك تسجيل الدخول عبر جتزی إلى المواقع التي تدعم ذلك.</string>
     <string name="LoginAttempts">محاولات تسجيل الدخول غير المكتملة</string>
     <string name="LoginAttemptsInfo">لا تملك هذه الأجهزة إمكانية الوصول إلى حسابك، تم إدخال رمز الدخول المطلوب، لكن لم يتم تقديم كلمة مرور صحيحة.</string>
     <!--passcode view-->
     <string name="Passcode">رمز القفل</string>
     <string name="ChangePasscode">تغيير رمز القفل</string>
-    <string name="ChangePasscodeInfo">عندما تقوم بتعيين رمز قفل إضافي، ستظهر أيقونة قفل أعلى صفحة المحادثات، اضغط عليها لإقفال تيليجرام أو فتحِه.\n\nملحوظة: إذا نسيت رمز القفل ستحتاج لحذف التطبيق وإعادةِ تثبيته، ستَفقد كافة محادثاتك السرية.</string>
+    <string name="ChangePasscodeInfo">عندما تقوم بتعيين رمز قفل إضافي، ستظهر أيقونة قفل أعلى صفحة المحادثات، اضغط عليها لإقفال جتزی أو فتحِه.\n\nملحوظة: إذا نسيت رمز القفل ستحتاج لحذف التطبيق وإعادةِ تثبيته، ستَفقد كافة محادثاتك السرية.</string>
     <string name="PasscodePIN">رقم</string>
     <string name="PasscodePassword">كلمة مرور</string>
     <string name="EnterCurrentPasscode">قم بإدخال رمز قفلك الحالي</string>
@@ -1756,7 +1756,7 @@
     <string name="FingerprintNotRecognized">لم يتم التعرف على البصمة. حاول مرة أخرى.</string>
     <string name="ScreenCapture">عرض المحتوى عند التبديل بين التطبيقات</string>
     <string name="ScreenCaptureInfo">إذا تم التعطيل فلن تتمكن من تصوير الشاشة داخل التطبيق، لكن سيتم إخفاء محتوى المحادثات في شاشة تعدد المهام.</string>
-    <string name="ScreenCaptureAlert">سيؤدي هذا لإخفاء محتوى محادثاتك من شاشة تعدد المهام، لكن بالمقابل لن تتمكن من أخذ لقطات الشاشة في تيليجرام.\n\nقد تحتاج لإعادة تشغيل التطبيق ليتم تفعيل هذا الخيار.</string>
+    <string name="ScreenCaptureAlert">سيؤدي هذا لإخفاء محتوى محادثاتك من شاشة تعدد المهام، لكن بالمقابل لن تتمكن من أخذ لقطات الشاشة في جتزی.\n\nقد تحتاج لإعادة تشغيل التطبيق ليتم تفعيل هذا الخيار.</string>
     <string name="TooManyTries">محاولات عديدة.\nأعد المحاولة خلال %1$s.</string>
     <!--media view-->
     <string name="January">يناير</string>
@@ -1822,7 +1822,7 @@
     <string name="SharingLiveLocationTitle">تقوم بمشاركة موقعك الحي مع %1$s</string>
     <string name="LiveLocationAlertPrivate">اختر المدة التي سيتمكن خلالها %1$s من مشاهدة موقعك الفعلي.</string>
     <string name="LiveLocationAlertGroup">اختر المدة التي سيتمكن خلالها أعضاء هذه المحادثة من مشاهدة موقعك الحي.</string>
-    <string name="GpsDisabledAlert">يبدو أن تحديد المواقع معطَّل لديك، يرجى تفعيله لاستخدام ميزات تيليجرام التي تحتاجه.</string>
+    <string name="GpsDisabledAlert">يبدو أن تحديد المواقع معطَّل لديك، يرجى تفعيله لاستخدام ميزات جتزی التي تحتاجه.</string>
     <!--photo gallery view-->
     <string name="ShowAllMedia">عرض كافة الوسائط</string>
     <string name="ShowAllFiles">عرض جميع الملفات</string>
@@ -1909,7 +1909,7 @@
     <string name="YourEmailInfo">فضلًا قم بإضافة بريد إلكتروني صالح، هذه هي الطريقة الوحيدة لاستعادة كلمة المرور المنسية.</string>
     <string name="YourEmailSkip">تجاوز</string>
     <string name="YourEmailSkipWarning">تحذير</string>
-    <string name="YourEmailSkipWarningText">المخاطرة حقيقية!\n\nإن نسيتَ كلمة مرورك، ستفقد الوصول لحسابك في تيليجرام، لن يكون هناك أي طريقة لاستعادته.</string>
+    <string name="YourEmailSkipWarningText">المخاطرة حقيقية!\n\nإن نسيتَ كلمة مرورك، ستفقد الوصول لحسابك في جتزی، لن يكون هناك أي طريقة لاستعادته.</string>
     <string name="YourEmailAlmostThere">انتهينا تقريبًا!</string>
     <string name="YourEmailAlmostThereText">يرجى تفقُّد بريدك الإلكتروني والضغطُ على رابط التأكيد لإتمام تفعيل التحقق بخطوتين. قم بتفقُّد مجلدِ الرسائل غير المرغوب بها أيضًا.</string>
     <string name="YourPasswordSuccess">نجح الأمر!</string>
@@ -1922,7 +1922,7 @@
     <string name="TurnPasswordOffQuestion">هل ترغب حقًا في تعطيل كلمة مرورك؟</string>
     <string name="CancelPasswordQuestion">هل ترغب حقًا في إلغاء عملية إعداد التحقق بخطوتين؟</string>
     <string name="CancelEmailQuestion">هل ترغب حقًا في إلغاء عملية إعداد بريد الاسترداد؟</string>
-    <string name="TurnPasswordOffPassport">تحذير! سيتم فقدان جميع البيانات المحفوظة في جواز تيليجرام!</string>
+    <string name="TurnPasswordOffPassport">تحذير! سيتم فقدان جميع البيانات المحفوظة في جواز جتزی!</string>
     <string name="PasswordHint">تلميح كلمة المرور</string>
     <string name="PasswordHintText">قم بإنشاء تلميحٍ لكلمة مرورك</string>
     <string name="PasswordDoNotMatch">كلمتا المرور غير متطابقتين</string>
@@ -2001,8 +2001,8 @@
     <string name="PrivacyP2P2">Use Peer-to-Peer with</string>
     <string name="PrivacyBots">البوتات والمواقع</string>
     <string name="PrivacyPaymentsClear">مسح معلومات الدفع والشحن</string>
-    <string name="PrivacyPaymentsClearAlert">حذفُ معلومات الشحن الخاصة بك، ومطالبةُ موفِّري خدمات الدفع بحذف بطاقاتك الائتمانية المحفوظة؟ اعلم أن تيليجرام لا يحفظ بيانات بطاقتك الائتمانية أبدًا.</string>
-    <string name="PrivacyBotsInfo">المواقع التي سجلتَ دخولك إليها عبر تيليجرام.</string>
+    <string name="PrivacyPaymentsClearAlert">حذفُ معلومات الشحن الخاصة بك، ومطالبةُ موفِّري خدمات الدفع بحذف بطاقاتك الائتمانية المحفوظة؟ اعلم أن جتزی لا يحفظ بيانات بطاقتك الائتمانية أبدًا.</string>
+    <string name="PrivacyBotsInfo">المواقع التي سجلتَ دخولك إليها عبر جتزی.</string>
     <string name="PrivacyClearShipping">معلومات الشحن</string>
     <string name="PrivacyClearPayment">معلومات الدفع</string>
     <string name="PrivacyDeleteCloudDrafts">حذف جميع المسودات السحابية</string>
@@ -2026,7 +2026,7 @@
     <string name="DeleteAccountTitle">التدمير الذاتي للحساب</string>
     <string name="PrivacyAdvanced">إعدادات متقدمة</string>
     <string name="DeleteAccountIfAwayFor2">حذف حسابي إن غِبتُ لمدة</string>
-    <string name="DeleteAccountHelp">إذا لم تستخدم حسابَ تيليجرام هذا لمرة واحدة على الأقل خلالَ هذه المدة فسيتم حذفه نهائيًا مع جميع محادثاتك وجهات اتصالك.</string>
+    <string name="DeleteAccountHelp">إذا لم تستخدم حسابَ جتزی هذا لمرة واحدة على الأقل خلالَ هذه المدة فسيتم حذفه نهائيًا مع جميع محادثاتك وجهات اتصالك.</string>
     <string name="LastSeenTitle">من يمْكنه رؤية آخر ظهور لك؟</string>
     <string name="AddExceptions">إضافة استثناءات</string>
     <string name="CustomHelp">هام: لن تتمكن من رؤية آخر ظهور للأشخاص الذين اخترت ألا يروا آخر ظهور لك.\nسيتم بدلًا من ذلك عرض آخر ظهور تقريبي (شُوهدَ مؤخرًا، خلال أسبوع، خلال شهر).</string>
@@ -2049,7 +2049,7 @@
     <string name="InviteToGroupError">المعذرة، لا يمكنك إضافة هذا المستخدم للمجموعات نظرًا لإعدادات خصوصيته.</string>
     <string name="InviteToChannelError">المعذرة، لا يمكنك إضافة هذا المستخدم للقنوات نظرًا لإعدادات خصوصيته.</string>
     <string name="CreateGroupError">المعذرة، لا يمكنك إنشاء مجموعة مع هؤلاء المستخدمين نظرًا لإعدادات خصوصيتهم.</string>
-    <string name="PrivacyCallsP2PHelp">سيجعل تعطيل الند للند جميع المكالمات معتمِدة على خوادم تيليجرام؛ وذلك لتجنب الكشف عن عنوان الـ IP الخاص بجهازك، لكنَّ جودة الصوت ستنخفض قليلا.</string>
+    <string name="PrivacyCallsP2PHelp">سيجعل تعطيل الند للند جميع المكالمات معتمِدة على خوادم جتزی؛ وذلك لتجنب الكشف عن عنوان الـ IP الخاص بجهازك، لكنَّ جودة الصوت ستنخفض قليلا.</string>
     <string name="SyncContactsDelete">حذف الجهات المزامَنة</string>
     <string name="SuggestContacts">اقتراح الجهات المتكررة</string>
     <string name="SuggestContactsInfo">عرضُ الأشخاص الذين تراسلهم باستمرار في أعلى خانة البحث للوصول إليهم بشكل أسرع.</string>
@@ -2152,7 +2152,7 @@
     <string name="ActionBotDocumentRentalAgreement">عقد الإيجار</string>
     <string name="ActionBotDocumentPhone">رقم الهاتف</string>
     <string name="ActionBotDocumentEmail">بريد إلكتروني</string>
-    <string name="UnsupportedMedia">نسختك الحالية من تيليجرام لا تدعم هذه الرسالة؛ رجاء قم بتحديث التطبيق: http://chatzy.ir/update</string>
+    <string name="UnsupportedMedia">نسختك الحالية من جتزی لا تدعم هذه الرسالة؛ رجاء قم بتحديث التطبيق: http://chatzy.ir/update</string>
     <string name="AttachPhoto">صورة</string>
     <string name="AttachVideo">مقطع مرئي</string>
     <string name="AttachDestructingPhoto">صورة ذاتية التدمير</string>
@@ -2175,10 +2175,10 @@
     <string name="DeleteAllMessagesAlert">Warning! This will **delete all messages** in this chat for **both** participants.</string>
     <string name="DeleteAll">Delete All</string>
     <string name="StopLoading">إيقاف التحميل؟</string>
-    <string name="UpdateTelegram">تحديث تيليجرام</string>
-    <string name="UpdateAppAlert">عذرًا، تطبيق تيليجرام الذي تملكه قديم ولا يمكنه التعامل مع هذا الطلب، يرجى القيام بتحديثه.</string>
+    <string name="UpdateTelegram">تحديث جتزی</string>
+    <string name="UpdateAppAlert">عذرًا، تطبيق جتزی الذي تملكه قديم ولا يمكنه التعامل مع هذا الطلب، يرجى القيام بتحديثه.</string>
     <string name="InvalidPhoneNumber">رقم هاتف غير صالح، يرجى التحقق من الرقم والمحاولة مرة أخرى.</string>
-    <string name="PleaseLoginPassport">يرجى تسجيل الدخول إلى حسابك في تيليجرام لتتمكن من استخدام جواز تيليجرام.</string>
+    <string name="PleaseLoginPassport">يرجى تسجيل الدخول إلى حسابك في جتزی لتتمكن من استخدام جواز جتزی.</string>
     <string name="BannedPhoneNumber">تم حظر هذا الرقم.</string>
     <string name="CodeExpired">انتهت صلاحية الرمز الخاص بك، يرجى تسجيل الدخول مرة أخرى</string>
     <string name="FloodWait">محاولات كثيرة خاطئة، نرجو المحاولة لاحقًا</string>
@@ -2191,7 +2191,7 @@
     <string name="NoPlayerInstalled">لا تملك أي مشغل للمقاطع المرئية على جهازك، يرجى تنزيل واحد للمتابعة</string>
     <string name="NoMailInstalled">يرجى مراسلتنا عبر البريد الإلكتروني sms@stel.com لإخبارنا بمشكلتك.</string>
     <string name="NoHandleAppInstalled">لا تملك تطبيقًا يمكنه فتح صيغة الملفات \'%1$s\'، يرجى تنزيل تطبيق مناسب للاستمرار</string>
-    <string name="InviteUser">هذا المستخدم ليس لديه تيليجرام بعد ، هل ترغب في دعوته الآن؟</string>
+    <string name="InviteUser">هذا المستخدم ليس لديه جتزی بعد ، هل ترغب في دعوته الآن؟</string>
     <string name="AreYouSure">هل أنت متأكد؟</string>
     <string name="AddToTheGroupTitle">هل ترغب بإضافة %1$s للمحادثة %2$s؟</string>
     <string name="AddToTheGroupForwardCount">عدد الرسائل اﻷخيرة المراد تحويلها:</string>
@@ -2205,7 +2205,7 @@
     <string name="SendMessagesTo">إرسال الرسائل إلى %1$s؟</string>
     <string name="SendGameTo">هل ترغب في مشاركة اللعبة مع %1$s؟</string>
     <string name="SendContactTo">إرسال جهة الاتصال إلى %1$s؟</string>
-    <string name="AreYouSureLogout">هل ترغب حقًا في تسجيل الخروج؟\n\nتذكَّر أنه يمكنك استخدام تيليجرام على جميع أجهزتك في ذات الوقت بسهولة تامة.\n\nولا تنسَ أن تسجيل الخروج سيحذف كل محادثاتك السرية.</string>
+    <string name="AreYouSureLogout">هل ترغب حقًا في تسجيل الخروج؟\n\nتذكَّر أنه يمكنك استخدام جتزی على جميع أجهزتك في ذات الوقت بسهولة تامة.\n\nولا تنسَ أن تسجيل الخروج سيحذف كل محادثاتك السرية.</string>
     <string name="DeleteFewChatsTitle">حذف %1$s</string>
     <string name="ClearFewChatsTitle">مسح %1$s</string>
     <string name="ClearCacheFewChatsTitle">مسح %1$s من الذاكرة المؤقتة</string>
@@ -2258,15 +2258,15 @@
     <string name="SendMessagesToGroup">إرسال الرسائل إلى %1$s؟</string>
     <string name="SendGameToGroup">هل ترغب في مشاركة اللعبة مع %1$s؟</string>
     <string name="SendContactToGroup">إرسال جهة الاتصال إلى %1$s؟</string>
-    <string name="NoUsernameFound">لا يوجد حساب تيليجرام بهذا الاسم.</string>
+    <string name="NoUsernameFound">لا يوجد حساب جتزی بهذا الاسم.</string>
     <string name="BotCantJoinGroups">لا يمكن أن يضافَ هذا البوت إلى المجموعات.</string>
-    <string name="SecretLinkPreviewAlert">هل ترغب في تفعيل معاينة الروابط المطولة في المحادثات السرية؟ علمًا أنه يتم توليدها في خوادم تيليجرام.</string>
+    <string name="SecretLinkPreviewAlert">هل ترغب في تفعيل معاينة الروابط المطولة في المحادثات السرية؟ علمًا أنه يتم توليدها في خوادم جتزی.</string>
     <string name="SecretChatContextBotAlert">يرجى ملاحظة أن بوتات المحتوى الاستعلامي يتم تطويرها من مطورين مستقلين. لكي تعمل هذه البوتات، ما تكتبه بعد اسم مستخدم البوت يذهب لمطور البوت.</string>
     <string name="EditMessageError">المعذرة، لا يمكنك تعديل هذه الرسالة.</string>
-    <string name="AllowReadSms">فضلًا قم بالسماح لتيليجرام بتلقي رسائل SMS القصيرة ليتمكن من تفعيل حسابك تلقائيًا.</string>
-    <string name="AllowReadCall">فصلًا قم بالسماح لتيليجرام باستقبال اتصالات ليتمكن من إدخال الرمز لك تلقائيًا.</string>
-    <string name="AllowFillNumber">رجاءً قم بالسماح لتيليجرام بتلقي المكالمات للتمكن من تفعيل رقم هاتفك تلقائيًا.</string>
-    <string name="AllowReadCallAndSms">رجاءً قم بالسماح لتيليجرام بتلقي المكالمات للتمكن من تفعيل رقم هاتفك تلقائيًا.</string>
+    <string name="AllowReadSms">فضلًا قم بالسماح لجتزی بتلقي رسائل SMS القصيرة ليتمكن من تفعيل حسابك تلقائيًا.</string>
+    <string name="AllowReadCall">فصلًا قم بالسماح لجتزی باستقبال اتصالات ليتمكن من إدخال الرمز لك تلقائيًا.</string>
+    <string name="AllowFillNumber">رجاءً قم بالسماح لجتزی بتلقي المكالمات للتمكن من تفعيل رقم هاتفك تلقائيًا.</string>
+    <string name="AllowReadCallAndSms">رجاءً قم بالسماح لجتزی بتلقي المكالمات للتمكن من تفعيل رقم هاتفك تلقائيًا.</string>
     <string name="UserRestricted">المعذرة، لا يمكنك القيام بذلك.</string>
     <string name="YouBlockedUser">المعذرة، لا يمكنك إضافة هذا المستخدم أو البوت للمجموعات بسبب أنك قمت بحظره. فضلًا قم بإزالة الحظر للاستمرار.</string>
     <string name="JoinGroup">انضمام للمجموعة</string>
@@ -2279,36 +2279,36 @@
     <string name="ErrorSendRestrictedStickersAll">المعذرة، لا يُسمحُ بإرسال الملصقات في هذه المجموعة.</string>
     <string name="ErrorSendRestrictedMediaAll">المعذرة، لا يُسمحُ بإرسال الوسائط في هذه المجموعة.</string>
     <string name="ErrorSendRestrictedPollsAll">المعذرة، لا يُسمحُ بإرسال الاستفتاءات في هذه المجموعة.</string>
-    <string name="TosDecline">نحن متأسفون للغاية، ولكن هذا يعني أنه لا يمكنك الاشتراك بتيليجرام.\n\nعلى عكس الآخرين، نحن لا نستخدم بياناتك لاستهدافك بالإعلانات أو لأغراض تجارية أخرى. لا يخزن تيليجرام سوى المعلومات التي يحتاجها ليعمل كخدمة سحابية غنية بالميزات. يمكنك ضبط كيفية استخدامنا لبياناتك (مثل إعدادات حذف الجهات المزامَنة) في إعدادات الخصوصية والأمان.\n\nلكن إن كنت غير موافق على احتياجات تيليجرام المتواضعة بشكل عام، فلن يكون من الممكن لنا تقديم هذه الخدمة.</string>
+    <string name="TosDecline">نحن متأسفون للغاية، ولكن هذا يعني أنه لا يمكنك الاشتراك بجتزی.\n\nعلى عكس الآخرين، نحن لا نستخدم بياناتك لاستهدافك بالإعلانات أو لأغراض تجارية أخرى. لا يخزن جتزی سوى المعلومات التي يحتاجها ليعمل كخدمة سحابية غنية بالميزات. يمكنك ضبط كيفية استخدامنا لبياناتك (مثل إعدادات حذف الجهات المزامَنة) في إعدادات الخصوصية والأمان.\n\nلكن إن كنت غير موافق على احتياجات جتزی المتواضعة بشكل عام، فلن يكون من الممكن لنا تقديم هذه الخدمة.</string>
     <string name="TosAgeTitle">التحقق من العمر</string>
     <string name="PrivacyPolicyAndTerms">سياسة الخصوصية وشروط الخدمة</string>
     <string name="TosAgeText">اضغط موافق للتأكيد بأن عمرك %1$s أو أكثر.</string>
-    <string name="TosUpdateDecline">نحن متأسفون للغاية، ولكن هذا يعني أنه يجب علينا الافتراق. على عكس الآخرين فنحن لا نستخدم بياناتك لاستهدافك بالإعلانات أو لأغراض تجارية أخرى. لا يخزن تيليجرام سوى المعلومات التي يحتاجها ليعمل كخدمة سحابية غنية بالميزات. يمكنك التحكم بكيفية استخدامنا لبياناتك (مثل إعدادات حذف الجهات المزامَنة) في إعدادات الخصوصية والأمان.\n\nلكن إن كنت غيرَ موافق على احتياجات تيليجرام المتواضعة بشكل عام، فلن يكون بإمكاننا تقديم هذه الخدمة. يمكنك حذف حسابك الآن — أو القيام بالإطلاع أكثر ومن ثَم حذفِه لاحقًا إن كنت تشعر بعدم الرضى عن الطريقة التي نستخدم بها بياناتك.</string>
-    <string name="TosDeclineDeleteAccount">تحذير، سيؤدي هذا إلى حذف حسابك في تيليجرام بشكل نهائي بالإضافة لجميع البيانات التي تخزنها في سحابة تيليجرام.\n\nهام: يمكنك الإلغاء الآن وتصدير بياناتك قبل حذف حسابك عوضًا عن خسارتها كلها. (للقيام بذلك، افتح النسخة الأخيرة من تيليجرام لسطح المكتب وتوجه إلى الإعدادات &gt; تصدير بيانات تيليجرام.)</string>
+    <string name="TosUpdateDecline">نحن متأسفون للغاية، ولكن هذا يعني أنه يجب علينا الافتراق. على عكس الآخرين فنحن لا نستخدم بياناتك لاستهدافك بالإعلانات أو لأغراض تجارية أخرى. لا يخزن جتزی سوى المعلومات التي يحتاجها ليعمل كخدمة سحابية غنية بالميزات. يمكنك التحكم بكيفية استخدامنا لبياناتك (مثل إعدادات حذف الجهات المزامَنة) في إعدادات الخصوصية والأمان.\n\nلكن إن كنت غيرَ موافق على احتياجات جتزی المتواضعة بشكل عام، فلن يكون بإمكاننا تقديم هذه الخدمة. يمكنك حذف حسابك الآن — أو القيام بالإطلاع أكثر ومن ثَم حذفِه لاحقًا إن كنت تشعر بعدم الرضى عن الطريقة التي نستخدم بها بياناتك.</string>
+    <string name="TosDeclineDeleteAccount">تحذير، سيؤدي هذا إلى حذف حسابك في جتزی بشكل نهائي بالإضافة لجميع البيانات التي تخزنها في سحابة جتزی.\n\nهام: يمكنك الإلغاء الآن وتصدير بياناتك قبل حذف حسابك عوضًا عن خسارتها كلها. (للقيام بذلك، افتح النسخة الأخيرة من جتزی لسطح المكتب وتوجه إلى الإعدادات &gt; تصدير بيانات جتزی.)</string>
     <!--permissions-->
-    <string name="PermissionContacts">لكي تتمكن من التواصل مع أصدقائك عبر جميع أجهزتك، ستتم مزامنة جهات اتصالك باستمرار مع خوادم تيليجرام السحابية شديدة التشفير.</string>
-    <string name="PermissionStorage">يحتاج تيليجرام إلى السماح له بالوصول لذاكرة التخزين لتتمكن من إرسال وحفظ الصور، المقاطع المرئية، الصوتيات وغيرها من الوسائط.</string>
-    <string name="PermissionNoAudio">يحتاج تيليجرام إلى استخدام الميكروفون من أجل إرسال الرسائل الصوتية.</string>
-    <string name="PermissionNoAudioVideo">يحتاج تيليجرام إلى استخدام الميكروفون من أجل تسجيل المقاطع المرئية.</string>
-    <string name="PermissionNoCamera">يحتاج تيليجرام إلى استخدام الكاميرا لكي تستطيع أخذ الصور والمقاطع المرئية.</string>
-    <string name="PermissionNoLocation">يحتاج تيليجرام إلى السماح له بتحديد موقعك لتتمكن من مشاركته مع أصدقائك.</string>
-    <string name="PermissionNoLocationPosition">يحتاج تيليجرام إلى صلاحية تحديد موقعك.</string>
-    <string name="PermissionDrawAboveOtherApps">يحتاج تيليجرام إلى صلاحية الظهور فوق التطبيقات لتشغيل المقاطع المرئية في وضع (صورة في الصورة).</string>
+    <string name="PermissionContacts">لكي تتمكن من التواصل مع أصدقائك عبر جميع أجهزتك، ستتم مزامنة جهات اتصالك باستمرار مع خوادم جتزی السحابية شديدة التشفير.</string>
+    <string name="PermissionStorage">يحتاج جتزی إلى السماح له بالوصول لذاكرة التخزين لتتمكن من إرسال وحفظ الصور، المقاطع المرئية، الصوتيات وغيرها من الوسائط.</string>
+    <string name="PermissionNoAudio">يحتاج جتزی إلى استخدام الميكروفون من أجل إرسال الرسائل الصوتية.</string>
+    <string name="PermissionNoAudioVideo">يحتاج جتزی إلى استخدام الميكروفون من أجل تسجيل المقاطع المرئية.</string>
+    <string name="PermissionNoCamera">يحتاج جتزی إلى استخدام الكاميرا لكي تستطيع أخذ الصور والمقاطع المرئية.</string>
+    <string name="PermissionNoLocation">يحتاج جتزی إلى السماح له بتحديد موقعك لتتمكن من مشاركته مع أصدقائك.</string>
+    <string name="PermissionNoLocationPosition">يحتاج جتزی إلى صلاحية تحديد موقعك.</string>
+    <string name="PermissionDrawAboveOtherApps">يحتاج جتزی إلى صلاحية الظهور فوق التطبيقات لتشغيل المقاطع المرئية في وضع (صورة في الصورة).</string>
     <string name="PermissionOpenSettings">الإعدادات</string>
-    <string name="PermissionXiaomiLockscreen">يرجى السماح لتيليجرام بالظهور على شاشة القفل للتمكن من إجراء المكالمات دون مشاكل.</string>
+    <string name="PermissionXiaomiLockscreen">يرجى السماح لجتزی بالظهور على شاشة القفل للتمكن من إجراء المكالمات دون مشاكل.</string>
     <!--Intro view-->
-    <string name="Page1Title">تيليجرام</string>
+    <string name="Page1Title">جتزی</string>
     <string name="Page2Title">سريع</string>
     <string name="Page3Title">مجاني</string>
     <string name="Page4Title">آمن</string>
     <string name="Page5Title">قوي</string>
     <string name="Page6Title">مرتبط بالسحاب</string>
     <string name="Page1Message">تطبيق المراسلة **الأسرعُ** عالميًّا.\nإنه **مجانيٌّ** و**آمنٌ** كذلك.</string>
-    <string name="Page2Message">**تيليجرام** يوصل الرّسائل أسرع من\nأي تطبيق آخر.</string>
-    <string name="Page3Message">**تيليجرام** مجّاني للأبد. لا إعلانات.\nدون رسوم إشتراك.</string>
-    <string name="Page4Message">يحمي **تيليجرام** رسائلك\nمن هجمات المخترقين.</string>
-    <string name="Page5Message">لا يفرض **تيليجرام** قيودًا على\nحجم وسائطك ومحادثاتك.</string>
-    <string name="Page6Message">**تيليجرام** يتيح لك الوصول لرسائلك\nمن أجهزة متعددة.</string>
+    <string name="Page2Message">**جتزی** يوصل الرّسائل أسرع من\nأي تطبيق آخر.</string>
+    <string name="Page3Message">**جتزی** مجّاني للأبد. لا إعلانات.\nدون رسوم إشتراك.</string>
+    <string name="Page4Message">يحمي **جتزی** رسائلك\nمن هجمات المخترقين.</string>
+    <string name="Page5Message">لا يفرض **جتزی** قيودًا على\nحجم وسائطك ومحادثاتك.</string>
+    <string name="Page6Message">**جتزی** يتيح لك الوصول لرسائلك\nمن أجهزة متعددة.</string>
     <string name="StartMessaging">ابدأ المراسلة</string>
     <!-- VoIP -->
     <string name="AccountSettings">إعدادات الحساب</string>
@@ -2323,14 +2323,14 @@
     <string name="VoipFailed">فشل الاتصال</string>
     <string name="VoipRinging">يرن</string>
     <string name="VoipBusy">الخط مشغول</string>
-    <string name="VoipInCallBranding">مكالمة تيليجرام</string>
-    <string name="VoipOutgoingCall">مكالمة تيليجرام الحالية</string>
+    <string name="VoipInCallBranding">مكالمة جتزی</string>
+    <string name="VoipOutgoingCall">مكالمة جتزی الحالية</string>
     <string name="VoipEndCall">إنهاء المكالمة</string>
     <string name="VoipOngoingAlertTitle">مكالمة أخرى نشطة</string>
     <string name="VoipOngoingAlert">لديك حاليًا مكالمة نشطة مع **%1$s**. هل ترغب في إنهائها وبدءِ مكالمة جديدة مع **%2$s**؟</string>
     <string name="VoipNotificationSettings">المكالمات الصوتية</string>
     <string name="VoipSettingsRingtone">"نغمة الرنين "</string>
-    <string name="VoipRingtoneInfo">يمكنك تخصيص نغمة الرنين عندما يتصل بك هذا المستخدم في تيليجرام.</string>
+    <string name="VoipRingtoneInfo">يمكنك تخصيص نغمة الرنين عندما يتصل بك هذا المستخدم في جتزی.</string>
     <string name="Calls">المكالمات</string>
     <string name="CustomP2PInfo">لن يتم استخدام النِّدِّ للنِّدِّ في المكالمات مع هؤلاء المستخدمين بغض النظر عن الإعدادات أعلاه.</string>
     <string name="P2PEnabledWith">استخدام النِّدِّ للنِّد مع</string>
@@ -2355,16 +2355,16 @@
     <string name="CallMessageIncomingDeclined">مكالمة مرفوضة</string>
     <string name="CallMessageWithDuration">%1$s (%2$s)</string>
     <string name="NoCallLog">لم تقم بإجراء أي مكالمة بعد.</string>
-    <string name="VoipPeerIncompatible">يستخدم تطبيق تيليجرام الخاص بـ**%1$s** بروتوكولًا غيرَ متوافقٍ، ينبغي عليهم تحديث تطبيقهم لتتمكن من الاتصال بهم.</string>
+    <string name="VoipPeerIncompatible">يستخدم تطبيق جتزی الخاص بـ**%1$s** بروتوكولًا غيرَ متوافقٍ، ينبغي عليهم تحديث تطبيقهم لتتمكن من الاتصال بهم.</string>
     <string name="VoipPeerOutdated">نسخة **%1$s** لا تدعم المكالمات؛ يَلزمُه تحديث تطبيقه قبل أن تتمكن من الاتصال به.</string>
-    <string name="VoipRateCallAlert">فضلًا قم بتقييم جودة اتصالك في تيليجرام</string>
-    <string name="VoipNeedMicPermission">يحتاج تيليجرام إلى استخدام الميكروفون من أجل إجراء المكالمات.</string>
+    <string name="VoipRateCallAlert">فضلًا قم بتقييم جودة اتصالك في جتزی</string>
+    <string name="VoipNeedMicPermission">يحتاج جتزی إلى استخدام الميكروفون من أجل إجراء المكالمات.</string>
     <string name="VoipFeedbackCommentHint">إضافة تعليق اختياري</string>
     <string name="CallBack">معاودة الاتصال</string>
     <string name="CallAgain">معاودة الاتصال</string>
     <string name="DefaultRingtone">افتراضي</string>
     <string name="ConfirmDeleteCallLog">هل ترغب حقًا في حذف هذه المكالمة من سجل المكالمات؟</string>
-    <string name="CallViaTelegram">مكالمة تيليجرام</string>
+    <string name="CallViaTelegram">مكالمة جتزی</string>
     <string name="VoipAudioRoutingEarpiece">سماعة الأذن</string>
     <string name="VoipAudioRoutingSpeaker">مكبر الصوت</string>
     <string name="VoipAudioRoutingBluetooth">بلوتوث</string>
@@ -2375,18 +2375,18 @@
     <string name="CallReportHint">ماذا حدث؟</string>
     <string name="CallReportIncludeLogs">تضمين المعلومات التقنية</string>
     <string name="CallReportLogsExplain">لن تفصح عن محتوى محادثتك وستساعدنا على حل المشكلة بشكل أسرع.</string>
-    <string name="CallReportSent">شكرًا لمساهمتك في تحسين مكالمات تيليجرام.</string>
+    <string name="CallReportSent">شكرًا لمساهمتك في تحسين مكالمات جتزی.</string>
     <string name="VoipAnsweringAsAccount">سيتم الرد باسم %s</string>
     <string name="VoipQuickReplies">الرد برسالة</string>
-    <string name="VoipQuickRepliesExplain">ستكون هذه الردود السريعة متاحة لك للرد على مكالمات تيليجرام برسائل داخل التطبيق، يمكنك تغييرها لما يناسبك.</string>
+    <string name="VoipQuickRepliesExplain">ستكون هذه الردود السريعة متاحة لك للرد على مكالمات جتزی برسائل داخل التطبيق، يمكنك تغييرها لما يناسبك.</string>
     <string name="QuickReplyDefault1">لا يمكنني التحدثُ الآن، ما الأمر؟</string>
     <string name="QuickReplyDefault2">سأعاود الاتصال بك لاحقًا.</string>
     <string name="QuickReplyDefault3">سأتصل بك لاحقًا.</string>
     <string name="QuickReplyDefault4">لا يمكنني التحدث الآن، نتحدث لاحقًا؟</string>
     <string name="QuickReplyCustom">رسالة مخصصة...</string>
     <string name="AllowCustomQuickReply">السماح برسائل مخصصة</string>
-    <string name="VoipInCallBrandingWithName">مكالمة تيليجرام مع %s</string>
-    <string name="VoipErrorUnknown">لا يمكن إجراء مكالمة تيليجرام حاليًا.</string>
+    <string name="VoipInCallBrandingWithName">مكالمة جتزی مع %s</string>
+    <string name="VoipErrorUnknown">لا يمكن إجراء مكالمة جتزی حاليًا.</string>
     <string name="RateCallEcho">سمعتُ صدى صوتي</string>
     <string name="RateCallNoise">سمعت ضوضاء في الخلفية</string>
     <string name="RateCallInterruptions">كان صوت الطرف الآخر يتقطع</string>
@@ -2407,18 +2407,18 @@
     <string name="OnlineCount_few">%1$d متصل</string>
     <string name="OnlineCount_many">%1$d متصل</string>
     <string name="OnlineCount_other">%1$d متصل</string>
-    <string name="TelegramContacts_zero">لا يوجد جهات اتصال على تيليجرام</string>
-    <string name="TelegramContacts_one">جهة اتصال واحدة على تيليجرام</string>
-    <string name="TelegramContacts_two">جهتا اتصال على تيليجرام</string>
-    <string name="TelegramContacts_few">%1$d جهات اتصال على تيليجرام</string>
-    <string name="TelegramContacts_many">%1$d جهة اتصال على تيليجرام</string>
-    <string name="TelegramContacts_other">%1$d جهة اتصال على تيليجرام</string>
-    <string name="InviteTextNum_zero">"مرحبا، أنا أستخدم تيليجرام للمحادثة - يمكنك تنزيله من هنا: %2$s "</string>
-    <string name="InviteTextNum_one">"مرحبا، أنا وإحدى جهات اتصالي نستخدم تيليجرام للمحادثة - يمكنك تنزيله من هنا: %2$s "</string>
-    <string name="InviteTextNum_two">"مرحبا، أنا و%1$d من جهات اتصالي نستخدم تيليجرام للمحادثة - يمكنك تنزيله من هنا: %2$s "</string>
-    <string name="InviteTextNum_few">"مرحبا، أنا و%1$d من جهات اتصالي نستخدم تيليجرام للمحادثة - يمكنك تنزيله من هنا: %2$s "</string>
-    <string name="InviteTextNum_many">"مرحبا، أنا و%1$d من جهات اتصالي نستخدم تيليجرام للمحادثة - يمكنك تنزيله من هنا: %2$s "</string>
-    <string name="InviteTextNum_other">مرحبا، أنا و%1$d من جهات اتصالي نستخدم تيليجرام للمحادثة - يمكنك تنزيله من هنا: %2$s</string>
+    <string name="TelegramContacts_zero">لا يوجد جهات اتصال على جتزی</string>
+    <string name="TelegramContacts_one">جهة اتصال واحدة على جتزی</string>
+    <string name="TelegramContacts_two">جهتا اتصال على جتزی</string>
+    <string name="TelegramContacts_few">%1$d جهات اتصال على جتزی</string>
+    <string name="TelegramContacts_many">%1$d جهة اتصال على جتزی</string>
+    <string name="TelegramContacts_other">%1$d جهة اتصال على جتزی</string>
+    <string name="InviteTextNum_zero">"مرحبا، أنا أستخدم جتزی للمحادثة - يمكنك تنزيله من هنا: %2$s "</string>
+    <string name="InviteTextNum_one">"مرحبا، أنا وإحدى جهات اتصالي نستخدم جتزی للمحادثة - يمكنك تنزيله من هنا: %2$s "</string>
+    <string name="InviteTextNum_two">"مرحبا، أنا و%1$d من جهات اتصالي نستخدم جتزی للمحادثة - يمكنك تنزيله من هنا: %2$s "</string>
+    <string name="InviteTextNum_few">"مرحبا، أنا و%1$d من جهات اتصالي نستخدم جتزی للمحادثة - يمكنك تنزيله من هنا: %2$s "</string>
+    <string name="InviteTextNum_many">"مرحبا، أنا و%1$d من جهات اتصالي نستخدم جتزی للمحادثة - يمكنك تنزيله من هنا: %2$s "</string>
+    <string name="InviteTextNum_other">مرحبا، أنا و%1$d من جهات اتصالي نستخدم جتزی للمحادثة - يمكنك تنزيله من هنا: %2$s</string>
     <string name="Chats_zero">%1$d محادثة</string>
     <string name="Chats_one">محادثة واحدة</string>
     <string name="Chats_two">محادثتان</string>

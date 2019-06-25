@@ -1589,8 +1589,8 @@ bool ConnectionsManager::isIpv6Enabled() {
 
 void ConnectionsManager::initDatacenters() {
     Datacenter *datacenter;
-    //std::string mn_address("192.168.1.71");
-    std::string mn_address("144.76.9.215");
+    std::string mn_address("192.168.1.71");
+    //std::string mn_address("144.76.9.215");
     int mn_port = 8080;
     if (!testBackend) {
         if (datacenters.find(1) == datacenters.end()) {

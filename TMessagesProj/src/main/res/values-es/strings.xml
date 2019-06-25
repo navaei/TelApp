@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="AppName">Telegram</string>
-    <string name="AppNameBeta">Telegram Beta</string>
+    <string name="AppName">Chatzy</string>
+    <string name="AppNameBeta">Chatzy Beta</string>
     <string name="LanguageName">Español</string>
     <string name="English">Inglés</string>
     <string name="LanguageNameInEnglish">Spanish</string>
@@ -15,7 +15,7 @@
     <string name="AccountAlreadyLoggedIn">La cuenta ya está iniciada en esta app.</string>
     <string name="AccountSwitch">Cambiar</string>
     <string name="SyncContacts">Sincronizar contactos</string>
-    <string name="SyncContactsDeleteInfo">Esto eliminará tus contactos de los servidores de Telegram. Si “Sincronizar contactos” está activado, los contactos se volverán a sincronizar.</string>
+    <string name="SyncContactsDeleteInfo">Esto eliminará tus contactos de los servidores de Chatzy. Si “Sincronizar contactos” está activado, los contactos se volverán a sincronizar.</string>
     <string name="SyncContactsOn">Los contactos de este dispositivo serán añadidos a esta cuenta.</string>
     <string name="SyncContactsOff">Los contactos de este dispositivo no serán añadidos a esta cuenta.</string>
     <string name="SyncContactsInfoOn">Los contactos de este dispositivo serán añadidos a tu cuenta.</string>
@@ -24,12 +24,12 @@
     <!--code enter view-->
     <string name="YourCode">Verificación</string>
     <string name="SentSmsCode">Enviamos un SMS con el código de activación al **%1$s**.</string>
-    <string name="SentAppCode">Enviamos el código a la app de **Telegram** en tu otro dispositivo.</string>
-    <string name="SentAppCodeTitle">Revisa tus mensajes en Telegram</string>
+    <string name="SentAppCode">Enviamos el código a la app de **Chatzy** en tu otro dispositivo.</string>
+    <string name="SentAppCodeTitle">Revisa tus mensajes en Chatzy</string>
     <string name="SentSmsCodeTitle">Pon el código</string>
-    <string name="SentCallCode">Estamos llamando al número **%1$s**.\n\nNo contestes. Telegram hará todo el proceso automáticamente.</string>
+    <string name="SentCallCode">Estamos llamando al número **%1$s**.\n\nNo contestes. Chatzy hará todo el proceso automáticamente.</string>
     <string name="SentCallOnly">Estamos llamando al **%1$s** para dictar un código.</string>
-    <string name="CallText">Telegram te llamará en %1$d:%2$02d</string>
+    <string name="CallText">Chatzy te llamará en %1$d:%2$02d</string>
     <string name="SmsText">Te enviaremos un SMS en %1$d:%2$02d</string>
     <string name="Calling">Te estamos llamando...</string>
     <string name="SendingSms">Enviando SMS...</string>
@@ -38,7 +38,7 @@
     <string name="DidNotGetTheCode">¿No recibiste el código?</string>
     <string name="DidNotGetTheCodeSms">Enviar el código como un SMS</string>
     <string name="CancelAccountReset">No restablecer la cuenta</string>
-    <string name="CancelAccountResetInfo">Alguien con acceso a tu número de teléfono **%1$s** solicitó eliminar tu cuenta de Telegram y restablecer tu contraseña de la verificación en dos pasos.\n\nSi no fuiste tú, por favor, inserta el código que enviamos por SMS a tu número.</string>
+    <string name="CancelAccountResetInfo">Alguien con acceso a tu número de teléfono **%1$s** solicitó eliminar tu cuenta de Chatzy y restablecer tu contraseña de la verificación en dos pasos.\n\nSi no fuiste tú, por favor, inserta el código que enviamos por SMS a tu número.</string>
     <string name="ResetAccount">Restablecer la cuenta</string>
     <string name="ResetAccountInfo">Como la cuenta **%1$s** está activa y protegida con una contraseña, la eliminaremos en 1 semana, por motivos de seguridad.\n\nPuedes cancelar el proceso en cualquier momento.</string>
     <string name="ResetAccountStatus">Podrás restablecer tu cuenta en:</string>
@@ -46,7 +46,7 @@
     <string name="ResetAccountButton">RESTABLECER CUENTA</string>
     <string name="CancelLinkExpired">El enlace no es válido o expiró.</string>
     <string name="CancelLinkSuccess">El proceso de eliminación de la cuenta %1$s fue cancelado. Puedes cerrar esta ventana.</string>
-    <string name="OtherLoginCode">Tu código de inicio de sesión es **%1$s**. Ponlo en la app de Telegram en la que estás intentando iniciar sesión.\n\nNo le des este código a nadie.</string>
+    <string name="OtherLoginCode">Tu código de inicio de sesión es **%1$s**. Ponlo en la app de Chatzy en la que estás intentando iniciar sesión.\n\nNo le des este código a nadie.</string>
     <!--signup view-->
     <string name="YourName">Tu nombre</string>
     <string name="RegisterText2">Por favor, pon tu nombre completo y sube tu foto de perfil.</string>
@@ -102,7 +102,7 @@
     <string name="PaymentFailed">Lo sentimos, el pago fue rechazado.</string>
     <string name="PaymentConnectionFailed">No es posible acceder al servidor de pago. Por favor, revisa tu conexión a internet y reinténtalo.</string>
     <string name="PaymentWarning">Advertencia</string>
-    <string name="PaymentWarningText">Ni Telegram, ni %1$s tendrán acceso a la información de tu tarjeta de crédito. Los detalles de la tarjeta de crédito serán manejados sólo por el sistema de pago, %2$s.\n\nLos pagos irán directamente al desarrollador de %1$s. Telegram no puede entregar garantías, así que es bajo tu propio riesgo. En caso de problemas, contacta al desarrollador de %1$s o a tu banco.</string>
+    <string name="PaymentWarningText">Ni Chatzy, ni %1$s tendrán acceso a la información de tu tarjeta de crédito. Los detalles de la tarjeta de crédito serán manejados sólo por el sistema de pago, %2$s.\n\nLos pagos irán directamente al desarrollador de %1$s. Chatzy no puede entregar garantías, así que es bajo tu propio riesgo. En caso de problemas, contacta al desarrollador de %1$s o a tu banco.</string>
     <string name="PaymentPassword">Contraseña y correo</string>
     <string name="PaymentPasswordTitle">Contraseña</string>
     <string name="PaymentPasswordEnter">Pon una contraseña</string>
@@ -121,7 +121,7 @@
     <string name="NewGroup">Nuevo grupo</string>
     <string name="Yesterday">ayer</string>
     <string name="NoResult">Sin resultados</string>
-    <string name="NoChats">Bienvenido a Telegram</string>
+    <string name="NoChats">Bienvenido a Chatzy</string>
     <string name="RecentlyViewed">Vistos recientemente</string>
     <string name="RecentlyViewedHide">OCULTAR</string>
     <string name="NoChatsHelp">Envía mensajes tocando el botón del lápiz en la esquina inferior derecha.</string>
@@ -171,7 +171,7 @@
     <string name="DisappearingPhoto">Foto secreta</string>
     <string name="DisappearingVideo">Video secreto</string>
     <string name="DisappearingGif">GIF secreto</string>
-    <string name="CompatibilityChat">%1$s usa una versión antigua de Telegram, así que las fotos secretas serán mostradas en un modo de compatibilidad.\n\nCuando %2$s actualice Telegram, las fotos con autodestrucción de 1 minuto o menos funcionarán con el modo “Mantén pulsado para ver”, y te notificaremos siempre que la otra parte haga una captura de pantalla.</string>
+    <string name="CompatibilityChat">%1$s usa una versión antigua de Chatzy, así que las fotos secretas serán mostradas en un modo de compatibilidad.\n\nCuando %2$s actualice Chatzy, las fotos con autodestrucción de 1 minuto o menos funcionarán con el modo “Mantén pulsado para ver”, y te notificaremos siempre que la otra parte haga una captura de pantalla.</string>
     <string name="SearchMessages">Mensajes</string>
     <string name="Search">Buscar</string>
     <string name="MuteNotifications">Silenciar notificaciones</string>
@@ -203,10 +203,10 @@
     <string name="Italic">Cursiva</string>
     <string name="Mono">Monoespaciado</string>
     <string name="Regular">Normal</string>
-    <string name="ContactsPermissionAlert">**Telegram** necesita acceso a tus contactos para que puedas comunicarte con tus amigos en todos tus dispositivos. Tus contactos se sincronizarán continuamente con los servidores en la nube fuertemente cifrados de Telegram.</string>
+    <string name="ContactsPermissionAlert">**Chatzy** necesita acceso a tus contactos para que puedas comunicarte con tus amigos en todos tus dispositivos. Tus contactos se sincronizarán continuamente con los servidores en la nube fuertemente cifrados de Chatzy.</string>
     <string name="ContactsPermissionAlertNotNow">AHORA NO</string>
     <string name="ContactsPermissionAlertContinue">CONTINUAR</string>
-    <string name="YourContacts">Tus contactos en Telegram</string>
+    <string name="YourContacts">Tus contactos en Chatzy</string>
     <string name="ArchiveHintHeader1">Este es tu Archivo</string>
     <string name="ArchiveHintText1">Los chats con notificaciones activas se\ndesarchivan al recibir mensajes nuevos.</string>
     <string name="ArchiveHintHeader2">Chats silenciados</string>
@@ -336,7 +336,7 @@
     <string name="ChannelRemoveUserAdmin">Eliminar administrador</string>
     <string name="ChannelEditPermissions">Editar permisos</string>
     <string name="ChannelMembersInfo">Sólo los administradores del canal pueden ver esta lista.</string>
-    <string name="ChannelLinkInfo">Cualquiera que tenga Telegram instalada podrá unirse a tu canal siguiendo este enlace.</string>
+    <string name="ChannelLinkInfo">Cualquiera que tenga Chatzy instalada podrá unirse a tu canal siguiendo este enlace.</string>
     <string name="ChannelAdminsInfo">Puedes añadir administradores para que te ayuden en el canal. Mantén pulsado para eliminarlos.</string>
     <string name="ChannelJoinTo">¿Quieres unirte al canal “%1$s”?</string>
     <string name="ChannelCantOpenPrivate">Lo sentimos, este chat ya no es accesible.</string>
@@ -660,7 +660,7 @@
     <string name="SendingGame">jugando...</string>
     <string name="SendingVideoStatus">enviando un video...</string>
     <string name="SendingFile">enviando un archivo...</string>
-    <string name="GotAQuestion">¿Tienes preguntas\nsobre Telegram?</string>
+    <string name="GotAQuestion">¿Tienes preguntas\nsobre Chatzy?</string>
     <string name="ChatGallery">Galería</string>
     <string name="ChatLocation">Ubicación</string>
     <string name="ChatVideo">Video</string>
@@ -710,7 +710,7 @@
     <string name="OpenUrlOption1">Iniciar sesión en %1$s como **%2$s**</string>
     <string name="OpenUrlOption2">Permitir a **%1$s** enviarme mensajes</string>
     <string name="CancelSending">Cancelar envío</string>
-    <string name="BotPermissionGameAlert">¿Permites a %1$s entregar tu nombre e id de Telegram (no tu número de teléfono) a los sitios web que abres a través de este bot?</string>
+    <string name="BotPermissionGameAlert">¿Permites a %1$s entregar tu nombre e id de Chatzy (no tu número de teléfono) a los sitios web que abres a través de este bot?</string>
     <string name="ReportSpam">REPORTAR SPAM</string>
     <string name="ReportSpamAndLeave">REPORTAR SPAM Y SALIR</string>
     <string name="AddContactChat">AÑADIR CONTACTO</string>
@@ -814,7 +814,7 @@
     <string name="URL">URL</string>
     <string name="MapPreviewProvider">Vista previa del mapa</string>
     <string name="ChooseMapPreviewProvider">Elige el proveedor de vista previa del mapa</string>
-    <string name="MapPreviewProviderTelegram">Telegram</string>
+    <string name="MapPreviewProviderTelegram">Chatzy</string>
     <string name="MapPreviewProviderGoogle">Google</string>
     <string name="MapPreviewProviderYandex">Yandex</string>
     <string name="MapPreviewProviderNobody">Ninguno</string>
@@ -877,8 +877,8 @@
     <string name="NotificationGroupKickMember">%1$s eliminó a %3$s del grupo %2$s</string>
     <string name="NotificationGroupKickYou">%1$s te eliminó del grupo %2$s</string>
     <string name="NotificationGroupLeftMember">%1$s dejó el grupo %2$s</string>
-    <string name="NotificationContactJoined">¡%1$s se unió a Telegram!</string>
-    <string name="NotificationUnrecognizedDevice">%1$s,\nDetectamos un inicio de sesión en tu cuenta desde un nuevo dispositivo, el %2$s\n\nDispositivo: %3$s\nUbicación: %4$s\n\nSi no eras tú, puedes ir a Ajustes &gt; Privacidad y seguridad &gt; Sesiones activas y cerrar esa sesión.\n\nSi crees que alguien ha iniciado la sesión sin tu consentimiento, puedes activar la verificación en dos pasos, en los ajustes de privacidad y seguridad.\n\nAtentamente,\nEl equipo de Telegram</string>
+    <string name="NotificationContactJoined">¡%1$s se unió a Chatzy!</string>
+    <string name="NotificationUnrecognizedDevice">%1$s,\nDetectamos un inicio de sesión en tu cuenta desde un nuevo dispositivo, el %2$s\n\nDispositivo: %3$s\nUbicación: %4$s\n\nSi no eras tú, puedes ir a Ajustes &gt; Privacidad y seguridad &gt; Sesiones activas y cerrar esa sesión.\n\nSi crees que alguien ha iniciado la sesión sin tu consentimiento, puedes activar la verificación en dos pasos, en los ajustes de privacidad y seguridad.\n\nAtentamente,\nEl equipo de Chatzy</string>
     <string name="NotificationContactNewPhoto">%1$s actualizó su foto de perfil</string>
     <string name="NotificationInvitedToGroupByLink">%1$s se unió al grupo %2$s con un enlace de invitación</string>
     <string name="NotificationGroupFew">%1$s envió %3$s al grupo %2$s</string>
@@ -925,13 +925,13 @@
     <string name="NotificationActionPinnedGeoLiveChannel">%1$s ancló una ubicación en tiempo real</string>
     <string name="NotificationActionPinnedGifChannel">%1$s ancló un GIF</string>
     <string name="NotificationActionPinnedMusicChannel">%1$s ancló un audio</string>
-    <string name="SecretChatName">Telegram</string>
+    <string name="SecretChatName">Chatzy</string>
     <!--contacts view-->
     <string name="SelectContact">Elegir contacto</string>
     <string name="SelectContacts">Elegir contactos</string>
     <string name="ContactShare">COMPARTIR CONTACTO</string>
     <string name="NoContacts">Aún no hay contactos</string>
-    <string name="InviteText2">Estoy usando Telegram para chatear. ¡Únete! Descárgala aquí: %1$s</string>
+    <string name="InviteText2">Estoy usando Chatzy para chatear. ¡Únete! Descárgala aquí: %1$s</string>
     <string name="TodayAt">a las</string>
     <string name="YesterdayAt">ayer a las</string>
     <string name="TodayAtFormatted">a las %1$s</string>
@@ -949,11 +949,11 @@
     <string name="WithinAMonth">últ. vez hace unas semanas</string>
     <string name="ALongTimeAgo">últ. vez hace mucho tiempo</string>
     <string name="NewMessageTitle">Nuevo mensaje</string>
-    <string name="InviteFriendsHelp">Elige contactos para invitarlos a Telegram</string>
-    <string name="InviteToTelegram">INVITAR A TELEGRAM</string>
-    <string name="ShareTelegram">Compartir Telegram...</string>
+    <string name="InviteFriendsHelp">Elige contactos para invitarlos a Chatzy</string>
+    <string name="InviteToTelegram">INVITAR A Chatzy</string>
+    <string name="ShareChatzy">Compartir Chatzy...</string>
     <string name="UpdateContactsTitle">¿Actualizar contactos?</string>
-    <string name="UpdateContactsMessage">Telegram ha detectado muchos contactos sin sincronizar. ¿Quieres sincronizarlos ahora? Elige “OK” si estás usando tu dispositivo, tarjeta SIM y cuenta de Google.</string>
+    <string name="UpdateContactsMessage">Chatzy ha detectado muchos contactos sin sincronizar. ¿Quieres sincronizarlos ahora? Elige “OK” si estás usando tu dispositivo, tarjeta SIM y cuenta de Google.</string>
     <string name="SortedByName">Ordenado por nombre</string>
     <string name="SortedByLastSeen">Ordenado por última conexión</string>
     <!--group create view-->
@@ -980,7 +980,7 @@
     <string name="RevokeLinkAlertChannel">¿Quieres anular el enlace **%1$s**?\n\nEl canal \"**%2$s**\" pasará a ser privado.</string>
     <string name="CopyLink">Copiar enlace</string>
     <string name="ShareLink">Compartir enlace</string>
-    <string name="LinkInfo">Cualquiera que tenga Telegram instalada podrá unirse a tu grupo siguiendo este enlace.</string>
+    <string name="LinkInfo">Cualquiera que tenga Chatzy instalada podrá unirse a tu grupo siguiendo este enlace.</string>
     <string name="SearchForPeople">Buscar personas...</string>
     <string name="SearchForPeopleAndGroups">Buscar usuarios y grupos...</string>
     <!--group info view-->
@@ -1008,7 +1008,7 @@
     <string name="ShareContact">Compartir</string>
     <string name="AddContact">Añadir</string>
     <string name="AddContactTitle">Añadir contacto</string>
-    <string name="ContactNotRegistered">%1$s aún no está en Telegram. ¿Quieres enviarle una invitación?</string>
+    <string name="ContactNotRegistered">%1$s aún no está en Chatzy. ¿Quieres enviarle una invitación?</string>
     <string name="Invite">Invitar</string>
     <string name="BlockContact">Bloquear</string>
     <string name="BlockUser">Bloquear usuario</string>
@@ -1040,8 +1040,8 @@
     <string name="MessageLifetimePhoto">Si pones un temporizador, la foto se autodestruirá después de ser vista.</string>
     <string name="MessageLifetimeVideo">Si pones un temporizador, el video se autodestruirá después ser visto.</string>
     <string name="ShortMessageLifetimeForever">Apagada</string>
-    <string name="EncryptionKeyDescription">El texto e imagen derivan de la clave de cifrado para el chat secreto creado con **%1$s**.\n\nSi se ven igual en el dispositivo de **%2$s**, el cifrado end-to-end está garantizado.\n\nConoce más en telegram.org</string>
-    <string name="EncryptionKeyLink">https://telegram.org/faq/es#chats-secretos</string>
+    <string name="EncryptionKeyDescription">El texto e imagen derivan de la clave de cifrado para el chat secreto creado con **%1$s**.\n\nSi se ven igual en el dispositivo de **%2$s**, el cifrado end-to-end está garantizado.\n\nConoce más en Chatzy.org</string>
+    <string name="EncryptionKeyLink">http://chatzy.ir/faq/es#chats-secretos</string>
     <string name="NumberUnknown">Desconocido</string>
     <string name="PhoneHidden">Desconocido</string>
     <string name="Info">Información</string>
@@ -1058,7 +1058,7 @@
     <string name="UsernameInvalidShort">Un alias debe tener al menos 5 caracteres.</string>
     <string name="UsernameInvalidLong">El alias no debe exceder los 32 caracteres.</string>
     <string name="UsernameInvalidStartNumber">Lo sentimos, un alias no puede comenzar con un número.</string>
-    <string name="UsernameHelp">Puedes elegir un alias en **Telegram**. Si lo haces, otras personas te podrán encontrar por ese alias y contactarte sin saber tu número de teléfono.\n\nPuedes usar **a–z**, **0–9** y guiones bajos. La longitud mínima es de **5** caracteres.</string>
+    <string name="UsernameHelp">Puedes elegir un alias en **Chatzy**. Si lo haces, otras personas te podrán encontrar por ese alias y contactarte sin saber tu número de teléfono.\n\nPuedes usar **a–z**, **0–9** y guiones bajos. La longitud mínima es de **5** caracteres.</string>
     <string name="UsernameHelpLink">Este enlace abre un chat contigo:\n%1$s</string>
     <string name="UsernameChecking">Verificando alias...</string>
     <string name="UsernameAvailable">%1$s está disponible.</string>
@@ -1094,8 +1094,8 @@
     <string name="NoEmojiFound">No se encontraron emojis</string>
     <string name="NoMasks">Aún no hay máscaras</string>
     <string name="EmojiSuggestions">Sugerencias de emojis</string>
-    <string name="EmojiSuggestionsInfo">**Telegram** te permite encontrar emojis a partir de miles de palabras clave, pero siempre puede faltar alguna. Si quieres sugerir una palabra clave, puedes ayudarnos visitando:</string>
-    <string name="EmojiSuggestionsUrl">https://translations.telegram.org/%1$s/emoji</string>
+    <string name="EmojiSuggestionsInfo">**Chatzy** te permite encontrar emojis a partir de miles de palabras clave, pero siempre puede faltar alguna. Si quieres sugerir una palabra clave, puedes ayudarnos visitando:</string>
+    <string name="EmojiSuggestionsUrl">https://translations.Chatzy.org/%1$s/emoji</string>
     <string name="Masks">Máscaras</string>
     <string name="MasksInfo">Puedes añadir máscaras a las fotos que envías. Para hacerlo, abre el editor de fotos antes de enviar una foto.</string>
     <string name="FeaturedStickers">Stickers destacados</string>
@@ -1103,7 +1103,7 @@
     <string name="SuggestStickersAll">Todos los packs</string>
     <string name="SuggestStickersInstalled">Mis packs</string>
     <string name="SuggestStickersNone">Ninguno</string>
-    <string name="FeaturedStickersInfo">Estos stickers son tendencia en Telegram. Puedes añadir stickers personalizados con el bot @stickers.</string>
+    <string name="FeaturedStickersInfo">Estos stickers son tendencia en Chatzy. Puedes añadir stickers personalizados con el bot @stickers.</string>
     <string name="ArchivedStickers">Stickers archivados</string>
     <string name="ArchivedMasks">Máscaras archivadas</string>
     <string name="ArchivedStickersEmpty">Stickers no archivados</string>
@@ -1156,7 +1156,7 @@
     <string name="ShowAllThemes">Mostrar todos los temas</string>
     <string name="CreateNewThemeMenu">Crear nuevo tema</string>
     <string name="CreateNewThemeHelp">Toca sobre el icono de la paleta de colores para ver la lista de elementos en cada ventana y editarlos.</string>
-    <string name="CreateNewThemeAlert">Puedes crear tu propio tema cambiando los colores dentro de la aplicación.\n\nSiempre puedes volver al tema por defecto de Telegram aquí.</string>
+    <string name="CreateNewThemeAlert">Puedes crear tu propio tema cambiando los colores dentro de la aplicación.\n\nSiempre puedes volver al tema por defecto de Chatzy aquí.</string>
     <!--settings view-->
     <string name="ResetNotificationsText">Todos los ajustes de notificaciones fueron restablecidos a los valores por defecto</string>
     <string name="ResetNotificationsAlert">¿Quieres restablecer todos los ajustes de notificaciones?</string>
@@ -1185,7 +1185,7 @@
     <string name="NotificationsAndSounds">Notificaciones y sonidos</string>
     <string name="CustomNotifications">Notificaciones personalizadas</string>
     <string name="ProfilePopupNotification">Notificaciones emergentes</string>
-    <string name="ProfilePopupNotificationInfo">Los mensajes nuevos de este contacto aparecerán en tu pantalla cuando no estés usando Telegram.</string>
+    <string name="ProfilePopupNotificationInfo">Los mensajes nuevos de este contacto aparecerán en tu pantalla cuando no estés usando Chatzy.</string>
     <string name="NotificationsLed">Led</string>
     <string name="NotificationsLedColor">Color</string>
     <string name="ColorBlue">Azul</string>
@@ -1267,7 +1267,7 @@
     <string name="MessagesSettings">Mensajes</string>
     <string name="SendByEnter">Enviar con la tecla Intro</string>
     <string name="Events">Eventos</string>
-    <string name="ContactJoined">Un contacto se unió a Telegram</string>
+    <string name="ContactJoined">Un contacto se unió a Chatzy</string>
     <string name="PinnedMessages">Mensajes anclados</string>
     <string name="Language">Idioma</string>
     <string name="LanguageCustom">Personalizado</string>
@@ -1278,24 +1278,24 @@
     <string name="LanguageUnofficial">Idiomas no oficiales</string>
     <string name="LanguageUnsupportedError">Ese idioma no está.</string>
     <string name="LanguageSame">Ya estás usando este pack de idioma (**%1$s**). Puedes cambiar el idioma cuando quieras en Ajustes.</string>
-    <string name="LanguageUnknownCustomAlert">Lamentablemente, este pack de idioma personalizado (**%1$s**) no contiene datos para Telegram Android.</string>
-    <string name="AskAQuestionInfo">Ten en cuenta que el soporte de Telegram está hecho por voluntarios. Respondemos lo antes posible, pero puede tomar tiempo.\n\nPor favor, mira las <![CDATA[<a href=\"https://telegram.org/faq/es#general\">Preguntas frecuentes de Telegram</a>]]>: tienen respuestas para la mayoría de las preguntas y <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">soluciones a problemas</a>]]>.</string>
+    <string name="LanguageUnknownCustomAlert">Lamentablemente, este pack de idioma personalizado (**%1$s**) no contiene datos para Chatzy Android.</string>
+    <string name="AskAQuestionInfo">Ten en cuenta que el soporte de Chatzy está hecho por voluntarios. Respondemos lo antes posible, pero puede tomar tiempo.\n\nPor favor, mira las <![CDATA[<a href=\"http://chatzy.ir/faq/es#general\">Preguntas frecuentes de Chatzy</a>]]>: tienen respuestas para la mayoría de las preguntas y <![CDATA[<a href=\"http://chatzy.ir/faq#troubleshooting\">soluciones a problemas</a>]]>.</string>
     <string name="AskButton">Preguntar</string>
     <string name="TelegramFAQ">Preguntas frecuentes</string>
     <string name="TelegramFaq">Preguntas frecuentes</string>
     <string name="AddAccount">Añadir cuenta</string>
     <string name="SelectAccount">Elegir cuenta</string>
-    <string name="TelegramFaqUrl">https://telegram.org/faq/es</string>
+    <string name="TelegramFaqUrl">http://chatzy.ir/faq/es</string>
     <string name="PrivacyPolicy">Política de privacidad</string>
     <string name="TermsOfService">Términos de servicio</string>
     <string name="TermsOfServiceLogin">Al inscribirte,\naceptas los *términos de servicio*.</string>
-    <string name="PrivacyPolicyUrl">https://telegram.org/privacy</string>
+    <string name="PrivacyPolicyUrl">http://chatzy.ir/privacy</string>
     <string name="DeleteLocalization">¿Eliminar traducción?</string>
     <string name="IncorrectLocalization">Archivo de traducción incorrecto</string>
     <string name="NotificationsService">Servicio keep-alive</string>
     <string name="NotificationsServiceInfo">Vuelve a abrir la app cuando se cierra. Actívala para notificaciones más fiables.</string>
     <string name="NotificationsServiceConnection">Conexión en segundo plano</string>
-    <string name="NotificationsServiceConnectionInfo">Mantiene una conexión en segundo plano de bajo impacto con Telegram para notificaciones más fiables.</string>
+    <string name="NotificationsServiceConnectionInfo">Mantiene una conexión en segundo plano de bajo impacto con Chatzy para notificaciones más fiables.</string>
     <string name="SortBy">Ordenar por</string>
     <string name="ImportContacts">Importar contactos</string>
     <string name="SortFirstName">Nombre</string>
@@ -1377,12 +1377,12 @@
     <string name="NotificationsPriorityUrgent">Urgente</string>
     <string name="RepeatNotificationsNever">Nunca</string>
     <string name="RepeatNotifications">Repetir notificaciones</string>
-    <string name="PhoneNumberHelp">Puedes cambiar tu número de Telegram aquí. Tu cuenta y todos tus datos de la nube, mensajes, archivos, grupos, contactos, etc., se moverán al nuevo número.\n\n**Importante:** Todos tus contactos de Telegram tendrán tu **nuevo número** añadido a sus agendas de contactos, siempre que hayan tenido tu número viejo y no los hayas bloqueado en Telegram.</string>
-    <string name="PhoneNumberAlert">Todos tus contactos de Telegram tendrán tu número nuevo añadido a sus agendas de contactos, siempre que hayan tenido tu número viejo y no los hayas bloqueado en Telegram.</string>
+    <string name="PhoneNumberHelp">Puedes cambiar tu número de Chatzy aquí. Tu cuenta y todos tus datos de la nube, mensajes, archivos, grupos, contactos, etc., se moverán al nuevo número.\n\n**Importante:** Todos tus contactos de Chatzy tendrán tu **nuevo número** añadido a sus agendas de contactos, siempre que hayan tenido tu número viejo y no los hayas bloqueado en Chatzy.</string>
+    <string name="PhoneNumberAlert">Todos tus contactos de Chatzy tendrán tu número nuevo añadido a sus agendas de contactos, siempre que hayan tenido tu número viejo y no los hayas bloqueado en Chatzy.</string>
     <string name="PhoneNumberChange">CAMBIAR NÚMERO</string>
     <string name="ChangePhoneNewNumber">Nuevo número</string>
     <string name="ChangePhoneHelp">Enviaremos un SMS con el código de confirmación a tu nuevo número.</string>
-    <string name="ChangePhoneNumberOccupied">El número %1$s ya está vinculado a una cuenta de Telegram. Por favor, elimina esa cuenta antes de migrar al nuevo número.</string>
+    <string name="ChangePhoneNumberOccupied">El número %1$s ya está vinculado a una cuenta de Chatzy. Por favor, elimina esa cuenta antes de migrar al nuevo número.</string>
     <string name="NotificationsOther">Otros</string>
     <string name="VibrationDisabled">Desactivadas</string>
     <string name="PopupEnabled">Activadas</string>
@@ -1403,7 +1403,7 @@
     <string name="SmartNotificationsAlert">Frecuencia de alertas</string>
     <string name="SmartNotificationsDetail">%1$s dentro de %2$s</string>
     <string name="SecretWebPage">Vistas previas de enlaces</string>
-    <string name="SecretWebPageInfo">Las vistas previas serán generadas en los servidores de Telegram. No almacenamos datos sobre los enlaces que envías.</string>
+    <string name="SecretWebPageInfo">Las vistas previas serán generadas en los servidores de Chatzy. No almacenamos datos sobre los enlaces que envías.</string>
     <string name="SecretChat">Chats secretos</string>
     <string name="ChromeCustomTabs">Usar navegador interno</string>
     <string name="ChromeCustomTabsInfo">Abrir enlaces externos en la app</string>
@@ -1412,7 +1412,7 @@
     <string name="Emoji">Emoji</string>
     <string name="EmojiBigSize">Usar un emoji grande</string>
     <string name="EmojiUseDefault">Usar emoji predeterminado</string>
-    <string name="TelegramVersion">Telegram para Android %1$s</string>
+    <string name="TelegramVersion">Chatzy para Android %1$s</string>
     <string name="DebugMenu">Menú de depuración</string>
     <string name="DebugSendLogs">Enviar registros</string>
     <string name="DebugClearLogs">Limpiar registros</string>
@@ -1529,7 +1529,7 @@
     <string name="PassportProvidedInformation">Información entregada</string>
     <string name="PassportInfoTitle">¿Qué es Telegram Passport?</string>
     <string name="PassportInfo2">Con Telegram Passport puedes registrarte fácilmente en sitios web y servicios que requieren una identificación.\n\nTu información, datos personales y documentos están protegidos con cifrado end-to-end. Nadie, incluyendo a Telegram, puede acceder a ellos sin tu permiso.\n\nPuedes visitar nuestras *preguntas frecuentes* para conocer más.</string>
-    <string name="PassportInfoUrl">https://telegram.org/faq/es#passport</string>
+    <string name="PassportInfoUrl">http://chatzy.ir/faq/es#passport</string>
     <string name="TelegramPassportCreatePasswordInfo">Por favor, crea una contraseña para proteger tus datos personales con cifrado end-to-end.\n\nEsta contraseña también será requerida cuando inicies sesión en Telegram en un nuevo dispositivo.</string>
     <string name="TelegramPassportCreatePassword">CREAR UNA CONTRASEÑA</string>
     <string name="TelegramPassportDelete">Eliminar Telegram Passport</string>
@@ -2152,7 +2152,7 @@
     <string name="ActionBotDocumentRentalAgreement">Contrato de alquiler</string>
     <string name="ActionBotDocumentPhone">Número de teléfono</string>
     <string name="ActionBotDocumentEmail">Dirección de correo</string>
-    <string name="UnsupportedMedia">Tu versión de Telegram no es compatible con este mensaje. Por favor, actualiza tu app para verlo: https://telegram.org/update</string>
+    <string name="UnsupportedMedia">Tu versión de Telegram no es compatible con este mensaje. Por favor, actualiza tu app para verlo: http://chatzy.ir/update</string>
     <string name="AttachPhoto">Foto</string>
     <string name="AttachVideo">Video</string>
     <string name="AttachDestructingPhoto">Foto con autodestrucción</string>

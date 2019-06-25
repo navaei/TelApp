@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="AppName">Telegram</string>
-    <string name="AppNameBeta">Telegram Beta</string>
+    <string name="AppName">Chatzy</string>
+    <string name="AppNameBeta">Chatzy Beta</string>
     <string name="LanguageName">Nederlands</string>
     <string name="English">Engels</string>
     <string name="LanguageNameInEnglish">Dutch</string>
@@ -15,7 +15,7 @@
     <string name="AccountAlreadyLoggedIn">Dit account heeft al een actieve sessie in deze app.</string>
     <string name="AccountSwitch">Wissel</string>
     <string name="SyncContacts">Contacten synchroniseren</string>
-    <string name="SyncContactsDeleteInfo">Hiermee verwijder je je contacten van de Telegram-servers.\nals \'Contacten Synchroniseren\' is ingeschakeld worden je contacten opnieuw gesynchroniseerd.</string>
+    <string name="SyncContactsDeleteInfo">Hiermee verwijder je je contacten van de Chatzy-servers.\nals \'Contacten Synchroniseren\' is ingeschakeld worden je contacten opnieuw gesynchroniseerd.</string>
     <string name="SyncContactsOn">Contacten van dit apparaat worden aan dit account toegevoegd</string>
     <string name="SyncContactsOff">Contacten van dit apparaat worden niet aan dit account toegevoegd.</string>
     <string name="SyncContactsInfoOn">Contacten van dit apparaat worden aan je account toegevoegd.</string>
@@ -24,12 +24,12 @@
     <!--code enter view-->
     <string name="YourCode">Telefoonverificatie</string>
     <string name="SentSmsCode">We hebben een sms-bericht met activatiecode verzonden naar **%1$s**.</string>
-    <string name="SentAppCode">We hebben de code naar je andere  **Telegram**-app gestuurd.</string>
-    <string name="SentAppCodeTitle">Controleer je Telegramberichten</string>
+    <string name="SentAppCode">We hebben de code naar je andere  **Chatzy**-app gestuurd.</string>
+    <string name="SentAppCodeTitle">Controleer je Chatzyberichten</string>
     <string name="SentSmsCodeTitle">Code invoeren</string>
-    <string name="SentCallCode">We bellen je op nummer **%1$s**.\n\nNeem niet op, Telegram verwerkt alles automatisch.</string>
+    <string name="SentCallCode">We bellen je op nummer **%1$s**.\n\nNeem niet op, Chatzy verwerkt alles automatisch.</string>
     <string name="SentCallOnly">We bellen je op **%1$s** om een code te dicteren.</string>
-    <string name="CallText">Telegram belt je over %1$d:%2$02d min</string>
+    <string name="CallText">Chatzy belt je over %1$d:%2$02d min</string>
     <string name="SmsText">We sturen je een SMS over %1$d:%2$02d</string>
     <string name="Calling">We bellen je</string>
     <string name="SendingSms">SMS sturen...</string>
@@ -38,7 +38,7 @@
     <string name="DidNotGetTheCode">Geen code ontvangen?</string>
     <string name="DidNotGetTheCodeSms">Verstuur de code per SMS</string>
     <string name="CancelAccountReset">Account reset annuleren</string>
-    <string name="CancelAccountResetInfo">Iemand met toegang tot nummer **%1$s** heeft geprobeerd om je Telegram account te verwijderen en je twee-staps-verificatie wachtwoord te resetten.\n\nAls jij dit niet was, geef dan de code in die we zojuist per SMS hebben gestuurd.</string>
+    <string name="CancelAccountResetInfo">Iemand met toegang tot nummer **%1$s** heeft geprobeerd om je Chatzy account te verwijderen en je twee-staps-verificatie wachtwoord te resetten.\n\nAls jij dit niet was, geef dan de code in die we zojuist per SMS hebben gestuurd.</string>
     <string name="ResetAccount">Account resetten</string>
     <string name="ResetAccountInfo">Account **%1$s** is actief en beveiligd met een wachtwoord, het verwijderen stellen we daarom 1 week uit.\n\nJe kunt dit proces ieder moment annuleren.</string>
     <string name="ResetAccountStatus">Je account kan gereset worden over:</string>
@@ -46,7 +46,7 @@
     <string name="ResetAccountButton">RESET ACCOUNT</string>
     <string name="CancelLinkExpired">Deze link is ongeldig of verlopen.</string>
     <string name="CancelLinkSuccess">De verwijdering van account: %1$s is geannuleerd. Je kunt dit venster sluiten.</string>
-    <string name="OtherLoginCode">Je logincode is **%1$s**. Voer de code in in de Telegram-app waarop je probeert in te loggen.\n\nGeef deze code nooit aan iemand anders.</string>
+    <string name="OtherLoginCode">Je logincode is **%1$s**. Voer de code in in de Chatzy-app waarop je probeert in te loggen.\n\nGeef deze code nooit aan iemand anders.</string>
     <!--signup view-->
     <string name="YourName">Je naam</string>
     <string name="RegisterText2">Geef je volledige naam in upload je profielfoto</string>
@@ -102,7 +102,7 @@
     <string name="PaymentFailed">Sorry, de betaling werd geweigerd.</string>
     <string name="PaymentConnectionFailed">Betalingsprovider kon niet worden bereikt, controleer je internetverbinding en probeer het opnieuw.</string>
     <string name="PaymentWarning">Waarschuwing</string>
-    <string name="PaymentWarningText">Noch Telegram, noch %1$s krijgen toegang tot je creditcard-informatie. Creditkaartgegevens worden alleen gebruikt door het het betalingssysteem %2$s.\n\nBetalingen gaan direct naar de ontwikkelaar van %1$s. Telegram kan geen garanties afgeven, doorgaan is op eigen risico. Neem bij problemen contact op met de ontwikkelaar van %1$s of je bank.</string>
+    <string name="PaymentWarningText">Noch Chatzy, noch %1$s krijgen toegang tot je creditcard-informatie. Creditkaartgegevens worden alleen gebruikt door het het betalingssysteem %2$s.\n\nBetalingen gaan direct naar de ontwikkelaar van %1$s. Chatzy kan geen garanties afgeven, doorgaan is op eigen risico. Neem bij problemen contact op met de ontwikkelaar van %1$s of je bank.</string>
     <string name="PaymentPassword">Wachtwoord &amp; E-Mail</string>
     <string name="PaymentPasswordTitle">Wachtwoord</string>
     <string name="PaymentPasswordEnter">Wachtwoord invoeren</string>
@@ -121,7 +121,7 @@
     <string name="NewGroup">Nieuwe groep</string>
     <string name="Yesterday">gisteren</string>
     <string name="NoResult">Geen resultaten</string>
-    <string name="NoChats">Welkom bij Telegram</string>
+    <string name="NoChats">Welkom bij Chatzy</string>
     <string name="RecentlyViewed">Recent bekeken</string>
     <string name="RecentlyViewedHide">VERBERG</string>
     <string name="NoChatsHelp">Begin een gesprek door op de opstelknop rechtsonder te drukken.</string>
@@ -171,7 +171,7 @@
     <string name="DisappearingPhoto">Geheime foto</string>
     <string name="DisappearingVideo">Geheime video</string>
     <string name="DisappearingGif">Geheime GIF</string>
-    <string name="CompatibilityChat">%1$s gebruikt een oudere versie van Telegram, dus worden geheime foto\'s weergegeven in de compatibiliteitsmodus.\n\nZodra %2$s Telegram updatet werken foto\'s met timers voor 1 minuut of minder in de \'Druk en houd ingedrukt\'-modus en krijg je een bericht wanneer de andere partij een schermafdruk maakt.</string>
+    <string name="CompatibilityChat">%1$s gebruikt een oudere versie van Chatzy, dus worden geheime foto\'s weergegeven in de compatibiliteitsmodus.\n\nZodra %2$s Chatzy updatet werken foto\'s met timers voor 1 minuut of minder in de \'Druk en houd ingedrukt\'-modus en krijg je een bericht wanneer de andere partij een schermafdruk maakt.</string>
     <string name="SearchMessages">Berichten</string>
     <string name="Search">Zoeken</string>
     <string name="MuteNotifications">Meldingen stil</string>
@@ -203,10 +203,10 @@
     <string name="Italic">Cursief</string>
     <string name="Mono">Mono</string>
     <string name="Regular">Normaal</string>
-    <string name="ContactsPermissionAlert">**Telegram** heeft toegang tot je contacten nodig zodat je makkelijk contact kunt opnemen met je vrienden vanaf al je apparaten. Telegram synchroniseert je contacten continu naar onze zwaar versleutelde Cloud-servers.</string>
+    <string name="ContactsPermissionAlert">**Chatzy** heeft toegang tot je contacten nodig zodat je makkelijk contact kunt opnemen met je vrienden vanaf al je apparaten. Chatzy synchroniseert je contacten continu naar onze zwaar versleutelde Cloud-servers.</string>
     <string name="ContactsPermissionAlertNotNow">NU NIET</string>
     <string name="ContactsPermissionAlertContinue">DOORGAAN</string>
-    <string name="YourContacts">Je contacten op Telegram</string>
+    <string name="YourContacts">Je contacten op Chatzy</string>
     <string name="ArchiveHintHeader1">Dit is je archief</string>
     <string name="ArchiveHintText1">Chats met ingeschakelde melding worden gedearchiveerd bij nieuwe meldingen.</string>
     <string name="ArchiveHintHeader2">Stille chats</string>
@@ -336,7 +336,7 @@
     <string name="ChannelRemoveUserAdmin">Beheerder ontslaan</string>
     <string name="ChannelEditPermissions">Rechten aanpassen</string>
     <string name="ChannelMembersInfo">Alleen kanaal-beheerders zien deze lijst.</string>
-    <string name="ChannelLinkInfo">Andere Telegram-gebruikers kunnen lid worden van je groep door deze link te openen.</string>
+    <string name="ChannelLinkInfo">Andere Chatzy-gebruikers kunnen lid worden van je groep door deze link te openen.</string>
     <string name="ChannelAdminsInfo">Je kunt beheerders toevoegen om je te helpen je kanaal te beheren. Druk en houd ingedrukt om beheerders te verwijderen.</string>
     <string name="ChannelJoinTo">Lid worden van kanaal \'%1$s\'?</string>
     <string name="ChannelCantOpenPrivate">Sorry, deze chat is niet beschikbaar.</string>
@@ -660,7 +660,7 @@
     <string name="SendingGame">speelt een spel</string>
     <string name="SendingVideoStatus">video versturen</string>
     <string name="SendingFile">bestand versturen</string>
-    <string name="GotAQuestion">Heb je een vraag\nover Telegram?</string>
+    <string name="GotAQuestion">Heb je een vraag\nover Chatzy?</string>
     <string name="ChatGallery">Galerij</string>
     <string name="ChatLocation">Locatie</string>
     <string name="ChatVideo">Video</string>
@@ -814,7 +814,7 @@
     <string name="URL">URL</string>
     <string name="MapPreviewProvider">Kaartvoorvertoning</string>
     <string name="ChooseMapPreviewProvider">Kies kaartvoorvertoning</string>
-    <string name="MapPreviewProviderTelegram">Telegram</string>
+    <string name="MapPreviewProviderTelegram">Chatzy</string>
     <string name="MapPreviewProviderGoogle">Google</string>
     <string name="MapPreviewProviderYandex">Yandex</string>
     <string name="MapPreviewProviderNobody">Geen</string>
@@ -877,8 +877,8 @@
     <string name="NotificationGroupKickMember">%1$s heeft %3$s verwijderd uit de groep %2$s</string>
     <string name="NotificationGroupKickYou">%1$s heeft je verwijderd uit de groep %2$s</string>
     <string name="NotificationGroupLeftMember">%1$s heeft de groep %2$s verlaten</string>
-    <string name="NotificationContactJoined">%1$s heeft nu Telegram!</string>
-    <string name="NotificationUnrecognizedDevice">%1$s,\nEr is op je account ingelogd vanaf een nieuw apparaat op %2$s\n\nApparaat: %3$s\nLocatie: %4$s\n\nAls jij dit niet was, kun je die sessie beëindigen via Instellingen - Privacy en veiligheid - Sessies.\n\nAls je dat denkt dat iemand anders zonder jouw toestemming is ingelogd kun je twee-staps-verificatie activeren via instellingen - privacy en veiligheid.\n\nBedankt,\nHet Telegram-team</string>
+    <string name="NotificationContactJoined">%1$s heeft nu Chatzy!</string>
+    <string name="NotificationUnrecognizedDevice">%1$s,\nEr is op je account ingelogd vanaf een nieuw apparaat op %2$s\n\nApparaat: %3$s\nLocatie: %4$s\n\nAls jij dit niet was, kun je die sessie beëindigen via Instellingen - Privacy en veiligheid - Sessies.\n\nAls je dat denkt dat iemand anders zonder jouw toestemming is ingelogd kun je twee-staps-verificatie activeren via instellingen - privacy en veiligheid.\n\nBedankt,\nHet Chatzy-team</string>
     <string name="NotificationContactNewPhoto">%1$s heeft zijn/haar profielfoto gewijzigd</string>
     <string name="NotificationInvitedToGroupByLink">%1$s is nu lid van de groep %2$s via uitnodigingslink</string>
     <string name="NotificationGroupFew">%1$s heeft %3$s naar de groep %2$s gestuurd</string>
@@ -925,13 +925,13 @@
     <string name="NotificationActionPinnedGeoLiveChannel">%1$s heeft een live-locatie vastgezet</string>
     <string name="NotificationActionPinnedGifChannel">%1$s heeft GIF vastgezet</string>
     <string name="NotificationActionPinnedMusicChannel">%1$s heeft muziekbestand vastgezet</string>
-    <string name="SecretChatName">Telegram</string>
+    <string name="SecretChatName">Chatzy</string>
     <!--contacts view-->
     <string name="SelectContact">Contact kiezen</string>
     <string name="SelectContacts">Select Contacts</string>
     <string name="ContactShare">Contact delen</string>
     <string name="NoContacts">Nog geen contacten</string>
-    <string name="InviteText2">Ik gebruik Telegram om te chatten. Download de app hier: %1$s</string>
+    <string name="InviteText2">Ik gebruik Chatzy om te chatten. Download de app hier: %1$s</string>
     <string name="TodayAt">om</string>
     <string name="YesterdayAt">gisteren om</string>
     <string name="TodayAtFormatted">om %1$s</string>
@@ -949,9 +949,9 @@
     <string name="WithinAMonth">afgelopen maand gezien</string>
     <string name="ALongTimeAgo">lang geleden gezien</string>
     <string name="NewMessageTitle">Nieuw bericht</string>
-    <string name="InviteFriendsHelp">Kies contacten en nodig ze uit voor Telegram</string>
-    <string name="InviteToTelegram">NODIG UIT VOOR TELEGRAM</string>
-    <string name="ShareTelegram">Telegram delen...</string>
+    <string name="InviteFriendsHelp">Kies contacten en nodig ze uit voor Chatzy</string>
+    <string name="InviteToTelegram">NODIG UIT VOOR Chatzy</string>
+    <string name="ShareTelegram">Chatzy delen...</string>
     <string name="UpdateContactsTitle">Contacten bijwerken?</string>
     <string name="UpdateContactsMessage">Veel van je contacten zijn niet gesynchroniseerd, wil je deze synchroniseren? Kies \'OK\' als je je eigen apparaat, SIM en Google-account gebruikt.</string>
     <string name="SortedByName">Sorteren op naam</string>
@@ -980,7 +980,7 @@
     <string name="RevokeLinkAlertChannel">Link **%1$s** echt intrekken?\n\nHet kanaal \"**%2$s**\" zal privé worden.</string>
     <string name="CopyLink">Link kopiëren</string>
     <string name="ShareLink">Link delen</string>
-    <string name="LinkInfo">Andere Telegram-gebruikers kunnen lid worden van je groep door deze link te openen.</string>
+    <string name="LinkInfo">Andere Chatzy-gebruikers kunnen lid worden van je groep door deze link te openen.</string>
     <string name="SearchForPeople">Search for people...</string>
     <string name="SearchForPeopleAndGroups">Search for users and groups...</string>
     <!--group info view-->
@@ -1040,8 +1040,8 @@
     <string name="MessageLifetimePhoto">Als je een timer instelt vernietigt de foto zichzelf na het bekijken.</string>
     <string name="MessageLifetimeVideo">Als je een timer instelt vernietigt de video zichzelf na het bekijken.</string>
     <string name="ShortMessageLifetimeForever">Uit</string>
-    <string name="EncryptionKeyDescription">Deze afbeelding en tekst zijn afgeleid van de encryptiesleutel voor deze geheime chat met **%1$s**.\n\nAls dit er hetzelfde uitziet op het apparaat van **%2$s**, dan is end-to-end-encryptie gegarandeerd.\n\nLees meer op telegram.org</string>
-    <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
+    <string name="EncryptionKeyDescription">Deze afbeelding en tekst zijn afgeleid van de encryptiesleutel voor deze geheime chat met **%1$s**.\n\nAls dit er hetzelfde uitziet op het apparaat van **%2$s**, dan is end-to-end-encryptie gegarandeerd.\n\nLees meer op Chatzy.org</string>
+    <string name="EncryptionKeyLink">https://Chatzy.org/faq#secret-chats</string>
     <string name="NumberUnknown">Onbekend</string>
     <string name="PhoneHidden">Onbekend</string>
     <string name="Info">Info</string>
@@ -1058,7 +1058,7 @@
     <string name="UsernameInvalidShort">Je naam moet minimaal 5 tekens hebben.</string>
     <string name="UsernameInvalidLong">Je naam mag niet langer zijn dan 32 tekens.</string>
     <string name="UsernameInvalidStartNumber">Sorry, begincijfers zijn niet toegestaan.</string>
-    <string name="UsernameHelp">Je kan een gebruikersnaam kiezen voor **Telegram**. Hiermee kunnen anderen je vinden en contact met je opnemen zonder je telefoonnummer te weten.\n\nJe mag **a–z**, **0–9** en liggend streepje gebruiken. De minimale lengte is **5** tekens.</string>
+    <string name="UsernameHelp">Je kan een gebruikersnaam kiezen voor **Chatzy**. Hiermee kunnen anderen je vinden en contact met je opnemen zonder je telefoonnummer te weten.\n\nJe mag **a–z**, **0–9** en liggend streepje gebruiken. De minimale lengte is **5** tekens.</string>
     <string name="UsernameHelpLink">Deze link opent een chat met je:\n%1$s</string>
     <string name="UsernameChecking">Gebruikersnaam controleren.</string>
     <string name="UsernameAvailable">%1$s is beschikbaar.</string>
@@ -1094,8 +1094,8 @@
     <string name="NoEmojiFound">Geen Emoji gevonden</string>
     <string name="NoMasks">Nog geen maskers</string>
     <string name="EmojiSuggestions">Emojisuggesties</string>
-    <string name="EmojiSuggestionsInfo">**Telegram** maakt het mogelijk om emoji te vinden op basis van duizenden woorden, maar er zullen er altijd wat missen. Als je suggesties wilt doen om emoji\'s nog makkelijker te vinden kan dat via:\n</string>
-    <string name="EmojiSuggestionsUrl">https://translations.telegram.org/%1$s/emoji</string>
+    <string name="EmojiSuggestionsInfo">**Chatzy** maakt het mogelijk om emoji te vinden op basis van duizenden woorden, maar er zullen er altijd wat missen. Als je suggesties wilt doen om emoji\'s nog makkelijker te vinden kan dat via:\n</string>
+    <string name="EmojiSuggestionsUrl">https://translations.Chatzy.org/%1$s/emoji</string>
     <string name="Masks">Maskers</string>
     <string name="MasksInfo">Je kunt maskers toevoegen aan foto\'s , gebruik de fotobewerkingsoptie en verstuur ze.</string>
     <string name="FeaturedStickers">Populaire stickers</string>
@@ -1103,7 +1103,7 @@
     <string name="SuggestStickersAll">Alle bundels</string>
     <string name="SuggestStickersInstalled">Mijn bundels</string>
     <string name="SuggestStickersNone">Geen</string>
-    <string name="FeaturedStickersInfo">Deze stickers zijn momenteel populair op Telegram. Je kunt persoonlijke stickers toevoegen via de @stickers bot.</string>
+    <string name="FeaturedStickersInfo">Deze stickers zijn momenteel populair op Chatzy. Je kunt persoonlijke stickers toevoegen via de @stickers bot.</string>
     <string name="ArchivedStickers">Gearchiveerde stickers</string>
     <string name="ArchivedMasks">Gearchiveerde maskers</string>
     <string name="ArchivedStickersEmpty">Geen gearchiveerde stickers</string>
@@ -1185,7 +1185,7 @@
     <string name="NotificationsAndSounds">Meldingen en geluiden</string>
     <string name="CustomNotifications">Aangepaste meldingen</string>
     <string name="ProfilePopupNotification">Pop-up meldingen</string>
-    <string name="ProfilePopupNotificationInfo">Nieuwe berichten van deze persoon worden weergegeven als je Telegram niet gebruikt.</string>
+    <string name="ProfilePopupNotificationInfo">Nieuwe berichten van deze persoon worden weergegeven als je Chatzy niet gebruikt.</string>
     <string name="NotificationsLed">LED</string>
     <string name="NotificationsLedColor">Kleur</string>
     <string name="ColorBlue">Blauw</string>
@@ -1267,7 +1267,7 @@
     <string name="MessagesSettings">Berichten</string>
     <string name="SendByEnter">Versturen met Enter</string>
     <string name="Events">Gebeurtenissen</string>
-    <string name="ContactJoined">Contact lid van Telegram</string>
+    <string name="ContactJoined">Contact lid van Chatzy</string>
     <string name="PinnedMessages">Vastgezette berichten</string>
     <string name="Language">Taal</string>
     <string name="LanguageCustom">Aangepast</string>
@@ -1278,18 +1278,18 @@
     <string name="LanguageUnofficial">Onofficiële talen</string>
     <string name="LanguageUnsupportedError">Deze taal bestaat niet</string>
     <string name="LanguageSame">Je maakt al gebruik van dit taalbestand (**%1$s**). Je kunt je taal altijd aanpassen via Instellingen.</string>
-    <string name="LanguageUnknownCustomAlert">Helaas lijkt dit aangepaste taalbestand (**%1$s**) geen gegevens voor Telegram Android te bevatten.</string>
-    <string name="AskAQuestionInfo">De ondersteuning van Telegram wordt gedaan door vrijwilligers. We doen ons best om zo snel mogelijk te antwoorden, maar het kan even duren.\n\nBekijk ook de <![CDATA[<a href=\"https://telegram.org/faq#general-questions\">veelgestelde vragen</a>]]>: Hier staan de antwoorden op de meeste vragen en belangrijke tips voor <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">het oplossen van problemen</a>]]>.</string>
+    <string name="LanguageUnknownCustomAlert">Helaas lijkt dit aangepaste taalbestand (**%1$s**) geen gegevens voor Chatzy Android te bevatten.</string>
+    <string name="AskAQuestionInfo">De ondersteuning van Chatzy wordt gedaan door vrijwilligers. We doen ons best om zo snel mogelijk te antwoorden, maar het kan even duren.\n\nBekijk ook de <![CDATA[<a href=\"https://Chatzy.org/faq#general-questions\">veelgestelde vragen</a>]]>: Hier staan de antwoorden op de meeste vragen en belangrijke tips voor <![CDATA[<a href=\"https://Chatzy.org/faq#troubleshooting\">het oplossen van problemen</a>]]>.</string>
     <string name="AskButton">Vraag een vrijwilliger</string>
     <string name="TelegramFAQ">Veelgestelde vragen</string>
     <string name="TelegramFaq">Veelgestelde vragen</string>
     <string name="AddAccount">Account toevoegen</string>
     <string name="SelectAccount">Account kiezen</string>
-    <string name="TelegramFaqUrl">https://telegram.org/faq</string>
+    <string name="TelegramFaqUrl">http://chatzy.ir/faq</string>
     <string name="PrivacyPolicy">Privacybeleid</string>
     <string name="TermsOfService">Gebruiksvoorwaarden</string>
     <string name="TermsOfServiceLogin">Door aan te melden ga je akkoord \nmet onze *Gebruiksvoorwaarden*.</string>
-    <string name="PrivacyPolicyUrl">https://telegram.org/privacy</string>
+    <string name="PrivacyPolicyUrl">http://chatzy.ir/privacy</string>
     <string name="DeleteLocalization">Vertaling verwijderen?</string>
     <string name="IncorrectLocalization">Ongeldig vertalingsbestand</string>
     <string name="NotificationsService">Meldingenservice</string>
@@ -1529,7 +1529,7 @@
     <string name="PassportProvidedInformation">Opgegeven informatie</string>
     <string name="PassportInfoTitle">Wat is Telegram Passport?</string>
     <string name="PassportInfo2">Met Telegram Passport kun je je makkelijk aanmelden voor diensten en websites die identiteitsverificatie vereisen.\n\nJe informatie, persoonsgegevens en bestanden worden beschermd middels end-to-end-versleuteling. Niemand, ook Telegram niet, heeft toegang tot deze gegevens zonder je toestemming.\n\nJe kunt onze *Veelgestelde vragen* bekijken voor meer informatie.</string>
-    <string name="PassportInfoUrl">https://telegram.org/faq#passport</string>
+    <string name="PassportInfoUrl">http://chatzy.ir/faq#passport</string>
     <string name="TelegramPassportCreatePasswordInfo">Stel een wachtwoord in om je persoonsgegevens te beveiligen met end-to-end-versleuteling.\n\nDit wachtwoord heb je ook nodig wanneer je inlogt op Telegram vanaf een nieuw apparaat.</string>
     <string name="TelegramPassportCreatePassword">Stel een wachtwoord in</string>
     <string name="TelegramPassportDelete">Telegram Passport verwijderen</string>
@@ -2152,7 +2152,7 @@
     <string name="ActionBotDocumentRentalAgreement">Huurovereenkomst</string>
     <string name="ActionBotDocumentPhone">Telefoonnummer</string>
     <string name="ActionBotDocumentEmail">E-mailadres</string>
-    <string name="UnsupportedMedia">Dit bericht wordt niet ondersteund door jouw versie van Telegram. Werk Telegram bij om dit bericht te bekijken: https://telegram.org/update</string>
+    <string name="UnsupportedMedia">Dit bericht wordt niet ondersteund door jouw versie van Telegram. Werk Telegram bij om dit bericht te bekijken: http://chatzy.ir/update</string>
     <string name="AttachPhoto">Foto</string>
     <string name="AttachVideo">Video</string>
     <string name="AttachDestructingPhoto">Zelfvernietigende foto</string>
