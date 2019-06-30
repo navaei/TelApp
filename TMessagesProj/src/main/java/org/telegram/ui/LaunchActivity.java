@@ -2874,7 +2874,7 @@ public class LaunchActivity extends Activity implements ActionBarLayout.ActionBa
             }
 
             final LocaleController.LocaleInfo[] infos = new LocaleController.LocaleInfo[2];
-            String arg = systemLang.contains("-") ? systemLang.split("-")[0] : systemLang;
+            String arg =systemLang != null && systemLang.contains("-") ? systemLang.split("-")[0] : "en";
             String alias;
             if ("in".equals(arg)) {
                 alias = "id";

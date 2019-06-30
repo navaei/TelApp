@@ -313,7 +313,7 @@ public class IntroActivity extends Activity implements NotificationCenter.Notifi
         LocaleController.LocaleInfo systemInfo = null;
         LocaleController.LocaleInfo currentLocaleInfo = LocaleController.getInstance().getCurrentLocaleInfo();
         final String systemLang = MessagesController.getInstance(currentAccount).suggestedLangCode;
-        String arg = systemLang != null && systemLang.contains("-") ? systemLang.split("-")[0] : systemLang;
+        String arg = systemLang != null && systemLang.contains("-") ? systemLang.split("-")[0] : "en";
         String alias = LocaleController.getLocaleAlias(arg);
         for (int a = 0; a < LocaleController.getInstance().languages.size(); a++) {
             LocaleController.LocaleInfo info = LocaleController.getInstance().languages.get(a);
