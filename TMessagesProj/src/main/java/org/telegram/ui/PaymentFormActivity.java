@@ -1870,7 +1870,7 @@ public class PaymentFormActivity extends BaseFragment implements NotificationCen
                     public boolean shouldOverrideUrlLoading(WebView view, String url) {
                         try {
                             Uri uri = Uri.parse(url);
-                            if ("t.me".equals(uri.getHost())) {
+                            if ("t.chatzy.ir".equals(uri.getHost())) {
                                 goToNextStep();
                                 return true;
                             }

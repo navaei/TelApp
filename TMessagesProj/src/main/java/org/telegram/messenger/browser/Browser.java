@@ -349,7 +349,7 @@ public class Browser {
                 }
                 return true;
             }
-        } else if ("telegram.me".equals(host) || "t.me".equals(host)) {
+        } else if ("chatzy.ir".equals(host) || "t.chatzy.ir".equals(host)) {
             String path = uri.getPath();
             if (path != null && path.length() > 1) {
                 path = path.substring(1).toLowerCase();

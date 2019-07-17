@@ -50,7 +50,7 @@ public class GcmPushListenerService extends FirebaseMessagingService {
                 }
                 int currentAccount = -1;
                 String loc_key = null;
-                String jsonString = null;
+                //String jsonString = null;
                 try {
                     Object value = data.get("p");
                     if (!(value instanceof String)) {
@@ -60,60 +60,9 @@ public class GcmPushListenerService extends FirebaseMessagingService {
                         onDecryptError();
                         return;
                     }
-                    byte[] bytes = Base64.decode((String) value, Base64.URL_SAFE);
-                    NativeByteBuffer buffer = new NativeByteBuffer(bytes.length);
-                    buffer.writeBytes(bytes);
-                    buffer.position(0);
-
-                    if (SharedConfig.pushAuthKeyId == null) {
-                        SharedConfig.pushAuthKeyId = new byte[8];
-                        byte[] authKeyHash = Utilities.computeSHA1(SharedConfig.pushAuthKey);
-                        System.arraycopy(authKeyHash, authKeyHash.length - 8, SharedConfig.pushAuthKeyId, 0, 8);
-                    }
-                    byte[] inAuthKeyId = new byte[8];
-                    buffer.readBytes(inAuthKeyId, true);
-                    if (!Arrays.equals(SharedConfig.pushAuthKeyId, inAuthKeyId)) {
-                        onDecryptError();
-                        if (BuildVars.LOGS_ENABLED) {
-                            FileLog.d(String.format(Locale.US, "GCM DECRYPT ERROR 2 k1=%s k2=%s, key=%s", Utilities.bytesToHex(SharedConfig.pushAuthKeyId), Utilities.bytesToHex(inAuthKeyId), Utilities.bytesToHex(SharedConfig.pushAuthKey)));
-                        }
-                        return;
-                    }
-
-                    byte[] messageKey = new byte[16];
-                    buffer.readBytes(messageKey, true);
-
-                    MessageKeyData messageKeyData = MessageKeyData.generateMessageKeyData(SharedConfig.pushAuthKey, messageKey, true, 2);
-                    Utilities.aesIgeEncryption(buffer.buffer, messageKeyData.aesKey, messageKeyData.aesIv, false, false, 24, bytes.length - 24);
-
-                    byte[] messageKeyFull = Utilities.computeSHA256(SharedConfig.pushAuthKey, 88 + 8, 32, buffer.buffer, 24, buffer.buffer.limit());
-                    if (!Utilities.arraysEquals(messageKey, 0, messageKeyFull, 8)) {
-                        onDecryptError();
-                        if (BuildVars.LOGS_ENABLED) {
-                            FileLog.d(String.format("GCM DECRYPT ERROR 3, key = %s", Utilities.bytesToHex(SharedConfig.pushAuthKey)));
-                        }
-                        return;
-                    }
-
-                    int len = buffer.readInt32(true);
-                    byte[] strBytes = new byte[len];
-                    buffer.readBytes(strBytes, true);
-                    jsonString = new String(strBytes);
+                    String jsonString =(String)value;
                     JSONObject json = new JSONObject(jsonString);
-
-                    if (json.has("loc_key")) {
-                        loc_key = json.getString("loc_key");
-                    } else {
-                        loc_key = "";
-                    }
-
-                    JSONObject custom;
-                    Object object = json.get("custom");
-                    if (object instanceof JSONObject) {
-                        custom = json.getJSONObject("custom");
-                    } else {
-                        custom = new JSONObject();
-                    }
+                    JSONObject custom = json.getJSONObject("custom");
 
                     Object userIdObject;
                     if (json.has("user_id")) {
@@ -147,6 +96,11 @@ public class GcmPushListenerService extends FirebaseMessagingService {
                         }
                         countDownLatch.countDown();
                         return;
+                    }
+                    if (json.has("loc_key")) {
+                        loc_key = json.getString("loc_key");
+                    } else {
+                        loc_key = "";
                     }
                     Object obj = data.get("google.sent_time");
                     switch (loc_key) {
@@ -930,7 +884,7 @@ public class GcmPushListenerService extends FirebaseMessagingService {
                         onDecryptError();
                     }
                     if (BuildVars.LOGS_ENABLED) {
-                        FileLog.e("error in loc_key = " + loc_key + " json " + jsonString);
+                        FileLog.e("error in loc_key = " + loc_key);
                     }
                     FileLog.e(e);
                 }

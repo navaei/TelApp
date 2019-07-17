@@ -2005,7 +2005,7 @@ public class Theme {
         ThemeInfo applyingTheme = null;
         try {
             preferences = MessagesController.getGlobalMainSettings();
-            String theme = preferences.getString("theme", null);
+            String theme = preferences.getString("theme", "Dark Blue");
             if (theme != null) {
                 applyingTheme = themesDict.get(theme);
             }
