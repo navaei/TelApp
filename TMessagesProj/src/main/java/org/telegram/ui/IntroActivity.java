@@ -51,6 +51,7 @@ import org.telegram.messenger.R;
 import org.telegram.messenger.UserConfig;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLRPC;
+import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.BottomPagesView;
 import org.telegram.ui.Components.LayoutHelper;
 
@@ -217,6 +218,7 @@ public class IntroActivity extends Activity implements NotificationCenter.Notifi
             intent2.putExtra("fromIntro", true);
             startActivity(intent2);
             destroyed = true;
+            Theme.applyThemeChatzy();
             finish();
         });
         if (BuildVars.DEBUG_VERSION) {

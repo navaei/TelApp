@@ -2005,7 +2005,7 @@ public class Theme {
         ThemeInfo applyingTheme = null;
         try {
             preferences = MessagesController.getGlobalMainSettings();
-            String theme = preferences.getString("theme", "Dark Blue");
+            String theme = preferences.getString("theme", null);
             if (theme != null) {
                 applyingTheme = themesDict.get(theme);
             }
@@ -2595,6 +2595,10 @@ public class Theme {
         } catch (Exception e) {
             FileLog.e(e);
         }
+    }
+
+    public static void applyThemeChatzy() {
+        applyTheme(themesDict.get("Dark Blue"), true, true, false);
     }
 
     private static void saveOtherThemes() {
